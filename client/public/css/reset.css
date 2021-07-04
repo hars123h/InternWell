@@ -1,0 +1,285 @@
+/* =================================================
+   01 - Global Style
+====================================================*/   
+*{
+	padding:0;
+	margin:0;
+}
+html,body {
+  height: 100%;
+  margin: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+    line-height: 24px;
+	font-weight:400;
+	color:#333;
+	position:relative;
+}
+h1,h2,h3,h4,h5,h6 {
+    text-transform: capitalize;
+	font-weight:700;
+	margin:0;
+}
+p {
+	margin:0;
+	color:#666;
+}
+a,button{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	outline:none !important;
+}
+img,input{
+    max-width: 100%;
+	display:block;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+button,a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.btn:hover,
+.btn:focus,
+.btn:active{
+	box-shadow:none;
+	outline: none;
+}
+select:focus,
+select:active {
+    box-shadow: 0;
+    border: 0;
+    outline: 0
+}
+ul,
+ul li {
+    margin: 0;
+    padding: 0;
+	list-style:none;
+}
+.mobile-menu,.mobile-arrow{
+	display:none;
+}
+.table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
+.section {
+    padding:80px 0;
+}
+.section-title {
+	margin-bottom: 30px;
+	text-align: center;
+	padding: 0 200px;
+	position: relative;
+	z-index: 22;
+}
+.title-bg {
+	color: #eee;
+	font-size: 180px;
+	line-height: 0;
+	position: absolute;
+	top: 36px;
+	left: 0;
+	width: 100%;
+	opacity: 0.8;
+	font-weight: 700;
+	z-index: -1;
+	text-transform: capitalize;
+}
+.section-title h1 {
+	font-size: 40px;
+	margin-bottom: 15px;
+	position: relative;
+	display: inline-block;
+	text-transform: capitalize;
+}
+.section-title h1 span{
+	margin-right:5px;
+}
+.btn {
+	display: inline-block;
+	color: #fff;
+	padding: 13px 34px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 3px;
+	position: relative;
+	background: #333;
+	border: none;
+	border-radius: 3px;
+}
+.btn:hover{
+	-webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+input,
+input:focus,
+input:active {
+    outline: none;
+}
+select{
+    -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+}
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/*Remove bootstrap tab css*/
+.nav-tabs > li > a {
+    border: 0
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    border: 0;
+    outline: 0
+}
+
+.nav-tabs {
+    border: 0
+}
+
+.nav-tabs > li > a:hover {
+    border: 0
+}
+.navbar-collapse {
+	padding-right: 0;
+	padding-left: 0;
+	position: relative;
+	border-top: 0px solid;
+	box-shadow: none;
+}
+
+
+
+
+#header .mobile-nav {
+	display: none;
+}
+#scrollUp {
+	bottom: 20px;
+	right: 20px;
+	background: #252525;
+	color: #fff;
+	font-size: 30px;
+	opacity: 0.5;
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+#scrollUp:hover {
+	opacity:1;
+}
+/* BreadCrumbs */
+.breadcrumbs {
+	text-align: center;
+	padding: 60px 0;
+	background-image: url('../images/bread-bg.jpg');
+	position: relative;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+}
+.breadcrumbs::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.5;
+	background-image: url('../images/pattern.png');
+}
+.breadcrumbs h2 {
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 40px;
+	position: relative;
+	float: left;
+	z-index: 5;
+}
+.breadcrumbs h2 i {
+	position: absolute;
+	font-size: 80px;
+	opacity: 0.3;
+	top: -17px;
+	z-index:-3;
+}
+.breadcrumbs ul {
+	float: right;
+	margin-top: 15px;
+}
+.breadcrumbs ul li{
+	display:inline-block;
+}
+.breadcrumbs ul li a {
+	color: #fff;
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+.breadcrumbs ul li a i {
+	font-size: 14px;
+	border-radius: 100%;
+	margin-right: 5px;
+}
+.breadcrumbs ul li + li::before {
+	padding: 0 10px;
+	font-family: 'FontAwesome';
+	content: "\f105";
+	font-size: 18px;
+	color: #fff;
+}
+
+
