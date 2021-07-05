@@ -49,9 +49,10 @@ const Team = () => {
 								<p>Co-Founder</p>
 								<h2>Sachin Korla</h2>
 								<ul className="t-social">
-									<li><a href="#/"><i className="fa fa-facebook"></i></a></li>
-									<li><a href="#/"><i className="fa fa-twitter"></i></a></li>
-									<li><a href="#/"><i className="fa fa-linkedin"></i></a></li>			
+									<li><a href="https://www.linkedin.com/in/sachinkorla/"><i className="fa fa-linkedin"></i></a></li>	
+									<li><a href="https://www.instagram.com/loverespect_sachu/"><i className="fa fa-instagram"></i></a></li>	
+									
+											
 								</ul>
 							</div>
 							{/* <!--/ End Team Bottom --> */}
@@ -73,9 +74,11 @@ const Team = () => {
 								<p>Co-Founder</p>
 								<h2>Ayush Thakur</h2>
 								<ul className="t-social">
-									<li><a href="#/"><i className="fa fa-facebook"></i></a></li>
-									<li><a href="#/"><i className="fa fa-twitter"></i></a></li>
-									<li><a href="#/"><i className="fa fa-linkedin"></i></a></li>			
+									<li><a href="https://www.linkedin.com/in/ayush-thakur-282000130/"><i className="fa fa-linkedin"></i></a></li>
+									<li><a href="https://twitter.com/ayush83461?s=09"><i className="fa fa-twitter"></i></a></li>
+									<li><a href="https://www.facebook.com/ayush.thakur.16940599"><i className="fa fa-facebook"></i></a></li>
+									<li><a href="https://www.instagram.com/ayush83461/"><i className="fa fa-instagram"></i></a></li>
+												
 								</ul>
 							</div>
 							{/* <!--/ End Team Bottom --> */}
