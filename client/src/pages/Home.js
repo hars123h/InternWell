@@ -195,8 +195,11 @@ const Home = () => {
                         <div className="section-title">
                             <span className="title-bg">Services</span>
                             <h1>What we provide</h1>
-                            <p>Sed lorem enim, faucibus at erat eget, laoreet tincidunt tortor. Ut sed mi nec
-                             ligula bibendum aliquam. Sed scelerisque maximus magna, a vehicula turpis Proin</p>
+                            <p>We here at Internwell provide various internship programmes wherein interns get a chance to work on a number of live projects. 
+							Being a part of live projects will serve as a medium for getting exposed to real
+                             life challenges in this competitive world. We have a dedicated team of experts 
+                             at Internwell who mentor and work tirelessly to guide the interns while working
+                              on live projects.</p>
                         </div>
                     </div>
                 </div>
@@ -207,24 +210,24 @@ const Home = () => {
                             <div className="single-service">
                                 <i className="fa fa-magic"></i>
                                 <h2><a href="/service">Digital Marketing</a></h2>
-                                <p>Our varied Digital Marketing services include Social Media Marketing,
-                                 Content Marketing, Video Marketing and Online advertisements, etc.</p>
+                                <p>Digital marketing is a booming industry and learning under the
+								supervision of experts will help you become a successful Digital Marketer. Skills are the key
+								focus in any career, especially digital marketing. You will not only learn the required skills but
+								will get proof of your learnings and achievements.</p>
                             </div>
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
                             <div className="single-service">
                                 <i className="fa fa-desktop" aria-hidden="true"></i>
                                 <h2><a href="/service">Web Development</a></h2>
-                                <p>This is the area of our expertise. We have the best mentors available to
-                                 make great user-friendly websites that will attract customers for your
-                                  products</p>
+                                <p>Websites are the heart behind the working of the Internet. Hence the art of creating and hosting such websites on the Internet is the idea behind “Web Development”. It is one of the most important technical disciplines of modern computing and forms an integral part of any business.</p>
                             </div>
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
                             <div className="single-service">
                                 <i className="fa fa-android" aria-hidden="true"></i>
                                 <h2><a href="/service"> App Development</a></h2>
-                                <p>We offer never before prices for cross platform app development for your enterprises. Apps can be used for a variety of purposes.</p>
+                                <p>App design combines a low-threshold entry to programming with the ability to create apps that will create an impact . Joining this internship can help you to Learn how to solve hard logic problems and build interactive apps.</p>
                             </div>
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
@@ -232,50 +235,50 @@ const Home = () => {
                                 <i className="fa fa-pencil-square-o" aria-hidden="true"></i>
 
                                 <h2><a href="/service">Content Writers</a></h2>
-                                <p>Content Writers are in huge demand across the nation. It is one of the fastest growing roles in the modern industry’s scenario.</p>
+                                <p>Grow as a writer. The best way to improve your writing is to write continuously . Writing lots of content while working on various projects will help you to figure out about the subtle distinction of grammer, sentence constitution and the overall structure of your writing . It will also enable you to understand how different forms of writing impact different people.</p>
                             </div>
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
                             <div className="single-service">
                                 <i className="fa fa-share-square-o" aria-hidden="true"></i>
                                 <h2><a href="/service">Social Media Maketing</a></h2>
-                                <p>Social Media is the biggest weapon for a company to advertise and increase its outreach. This is a great skill to have in your resume.</p>
+                                <p>Social media marketing is growing day-by-Social media is one common platform where billions of users stay connected . It is not always easy to get your foot in the door when aiming to work in competitive fields like social media marketing. That is where an internship can be useful. One of the biggest benefits of acquiring a marketing internship is the chance to gain experience from people who are experts in this field .</p>
                             </div>
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
-                            <div className="single-service">
+                            {/* <div className="single-service">
                                 <i className="fa fa-lightbulb-o"></i>
                                 <h2><a href="/service">Creative Idea</a></h2>
                                 <p>Creative and erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat classNameical Latin</p>
-                            </div>
+                            </div> */}
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
-                            <div className="single-service">
+                            {/* <div className="single-service">
                                 <i className="fa fa-wordpress"></i>
                                 <h2><a href="/service">Development</a></h2>
                                 <p>just fine erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat classNameical Latin</p>
-                            </div>
+                            </div> */}
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
-                            <div className="single-service">
+                            {/* <div className="single-service">
                                 <i className="fa fa-bullhorn "></i>
                                 <h2><a href="/service">Marketing</a></h2>
                                 <p>Possible of erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat classNameical Latin</p>
-                            </div>
+                            </div> */}
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
-                            <div className="single-service">
+                            {/* <div className="single-service">
                                 <i className="fa fa-bullseye "></i>
                                 <h2><a href="/service">Direct Work</a></h2>
                                 <p>Everything ien erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat Latin</p>
-                            </div>
+                            </div> */}
                             {/* <!-- End Single Service -->	
                             <!-- Single Service --> */}
-                            <div className="single-service">
+                            {/* <div className="single-service">
                                 <i className="fa fa-cube"></i>
                                 <h2><a href="/service">Creative Plan</a></h2>
                                 <p>Information sapien erat,  non porttitor non, dignissim et enim Aenean ac enim feugiat classNameical Latin</p>
-                            </div>
+                            </div> */}
                             {/* <!-- End Single Service --> */}
                         </div>
                     </div>

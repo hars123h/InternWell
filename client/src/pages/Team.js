@@ -34,7 +34,7 @@ const Team = () => {
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-lg-3 col-md-6 col-12">
+					<div className=" col-lg-6 col-6 justify-content-center ">
 						{/* <!-- Single Team --> */}
 						<div className="single-team">
 							{/* <!-- Team Head --> */}
@@ -58,7 +58,7 @@ const Team = () => {
 						</div>
 						{/* <!-- End Single Team --> */}
 					</div>		
-					<div className="col-lg-3 col-md-6 col-12">
+					<div className="col-lg-6 col-6 justify-content-center ">
 						{/* <!-- Single Team --> */}
 						<div className="single-team">
 							{/* <!-- Team Head --> */}

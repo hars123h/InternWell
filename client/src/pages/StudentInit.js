@@ -34,82 +34,26 @@ const StudentInit = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-12">
-                        <div className="service-slider">
-                            {/* <!-- Single Service --> */}
-                            <div className="single-service">
-                                <i className="fa fa-magic"></i>
-                                <h2><a href="service-single.html">Towards Skilldom</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at nihil voluptatum deserunt quasi mollitia id, delectus officia.</p>
-                            </div>
-                            {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                            <div className="single-service">
-                                <i className="fa fa-desktop" aria-hidden="true"></i>
-                                <h2><a href="service-single.html">InternWell Mentorship Program</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at nihil voluptatum deserunt quasi mollitia id, delectus officia.</p>
-                            </div>
-                            {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                            <div className="single-service">
-                                <i className="fa fa-android" aria-hidden="true"></i>
-                                <h2><a href="service-single.html"> Dummy Initiative</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at nihil voluptatum deserunt quasi mollitia id, delectus officia.</p>
-                            </div>
-                            {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                            <div className="single-service">
-                                <i className="fa fa-pencil-square-o" aria-hidden="true"></i>
 
-                                <h2><a href="service-single.html">Dummy Initiative</a></h2>
-                                <p>Content Writers are in huge demand across the nation. It is one of the fastest growing roles in the modern industry’s scenario.</p>
-                            </div>
-                            {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                            <div className="single-service">
-                                <i className="fa fa-share-square-o" aria-hidden="true"></i>
-                                <h2><a href="service-single.html">Dummy Initiative</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at nihil voluptatum deserunt quasi mollitia id, delectus officia.</p>
-                            </div>
-                            {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                            <div className="single-service">
-                                <i className="fa fa-lightbulb-o"></i>
-                                <h2><a href="service-single.html">Dummy Initiative</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at nihil voluptatum deserunt quasi mollitia id, delectus officia.</p>
-                            </div>
-                            {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                            <div className="single-service">
-                                <i className="fa fa-wordpress"></i>
-                                <h2><a href="service-single.html">Dummy Initiative</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at nihil voluptatum deserunt quasi mollitia id, delectus officia.</p>
-                            </div>
-                            {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                            <div className="single-service">
-                                <i className="fa fa-bullhorn "></i>
-                                <h2><a href="service-single.html">Dummy Initiative</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at nihil voluptatum deserunt quasi mollitia id, delectus officia.</p>
-                            </div>
-                            {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                            <div className="single-service">
-                                <i className="fa fa-bullseye "></i>
-                                <h2><a href="service-single.html">Dummy Initiative</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at nihil voluptatum deserunt quasi mollitia id, delectus officia.</p>
-                            </div>
-                            {/* <!-- End Single Service -->	
-                            <!-- Single Service --> */}
-                            <div className="single-service">
-                                <i className="fa fa-cube"></i>
-                                <h2><a href="service-single.html">Dummy Initiative</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at nihil voluptatum deserunt quasi mollitia id, delectus officia.</p>
-                            </div>
-                            {/* <!-- End Single Service --> */}
-                        </div>
-                    </div>
+                <div className="row">
+					<div className="col-lg-6 col-md-6">
+						{/* <!-- Single Service --> */}
+						<div className="single-service">
+							{/* <i className="fa fa-magic"></i> */}
+							<h2><a href="/service">InternWell Mentorship Program</a></h2>
+							<p>In the current scenario, business and startus culture are growing rapidly especially in India and thats why we have bring this consulting service in which we will help people with their business development and other things related to grow their market value.</p>
+						</div>
+						{/* <!-- End Single Service --> */}
+					</div>
+					<div className="col-lg-6 col-md-6">
+						{/* <!-- Single Service --> */}
+						<div className="single-service">
+							{/* <i className="fa fa-lightbulb-o"></i> */}
+							<h2><a href="/service">Skilldom 2.0</a></h2>
+							<p>Content Writers are in huge demand across the nation. It is one of the fastest growing roles in the modern industry’s scenario. The need of creative content is growing each day. Little knowledge of SEO and correct usage of language along with a hint of creativity goes a long way.</p>
+						</div>
+						{/* <!-- End Single Service --> */}
+					</div>
                 </div>
             </div>
         </section>

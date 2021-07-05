@@ -26,7 +26,7 @@ const About = () => {
 				<div className="row">
 					<div className="col-12">
 						<div className="section-title">
-							<span className="title-bg">Radix</span>
+							<span className="title-bg">InternWell</span>
 							<h1>About Company</h1>
 							<p>
 								A Socio-Startup that aims to provide digital solutions to the SMEs & let
