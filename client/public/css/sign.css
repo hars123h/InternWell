@@ -1,0 +1,227 @@
+.login {
+    position: relative;
+}
+
+.login:before {
+    content: "";
+    margin-left: -48%;
+     background-image: url(../img/login-shape.png); 
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.login-section .col-lg-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh
+}
+
+.login-text {
+    padding-top: 20px;
+}
+
+.login-slide-item {
+    width: 60%
+}
+
+.login-text h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 30px
+}
+
+.login-right {
+    padding-left: 50px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.login-form {
+    margin-top: 20px;
+    width: 65%
+}
+
+.login-form h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1c2045;
+    text-transform: capitalize
+}
+
+.login-form p {
+    margin-top: 10px
+}
+
+.login-form p input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.login-form p button {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    border: medium none;
+    background: #7052fb none repeat scroll 0 0;
+    color: #fff;
+    font-weight: 500;
+    padding: 13px 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+
+.login-form p button:hover {
+    background: #4b2be3 none repeat scroll 0 0;
+}
+
+.login-action {
+    margin-top: 50px;
+}
+
+.login-action p:last-child a {
+    color: #111;
+    font-weight: 500;
+}
+
+.login-policy>p {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #ddd;
+    line-height: 20px;
+    margin-top: 0
+}
+
+.login-action p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.login-policy>p:last-child {
+    border-right: 0px
+}
+
+.login-left {
+    overflow: hidden;
+}
+
+.login-text .owl-dots {
+    margin-top: 30px;
+    padding-left: 20%
+}
+
+.login-text .owl-dots span {
+    width: 10px;
+    height: 10px;
+    background: #9B86FC none repeat scroll 0 0;
+    display: inline-block;
+    margin: 0 4px;
+    border-radius: 20px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+
+.login-text .owl-dots .active span {
+    width: 25px;
+    background: #fff none repeat scroll 0 0
+}
+
+.custom-checkbox {
+    padding-left: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 15px !important;
+    margin-bottom: 25px;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    position: absolute;
+    left: -3000px;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+label {
+    color: #111;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+label~.checkbox {
+    background-color: #7052fb;
+    border: medium none
+}
+
+.custom-checkbox input[type="checkbox"]:checked+label~.checkbox:before {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: translate(-50%, -50%) scale(1, 1);
+    transform: translate(-50%, -50%) scale(1, 1);
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.custom-checkbox label {
+    font-size: 14px;
+    color: #3a505f;
+    font-weight: normal;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 0;
+}
+
+.custom-checkbox label a {
+    color: #7052fb;
+    font-weight: 500
+}
+
+.custom-checkbox .checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background: transparent;
+    border: 1px solid #ddd
+}
+
+.custom-checkbox .checkbox:before {
+    position: absolute;
+    content: "";
+    font-family: "FontAwesome";
+    color: #fff;
+    font-size: 13px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(1.1, 1.1);
+    transform: translate(-50%, -50%) scale(1.1, 1.1);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
