@@ -36,7 +36,7 @@ const Footer = () => {
                             <li><a href="https://medium.com/@internwellofficial"><i className="fa fa-caret-right"></i>Latest Blog</a></li>
                             <li><a href="team.html"><i className="fa fa-caret-right"></i>Our Team</a></li>
                             <li><a href="society-init.html"><i className="fa fa-caret-right"></i>Social Initiatives</a></li>
-                            <li><a href="students-init.html"><i className="fa fa-caret-right"></i>Sotudents Initiatives</a></li>
+                            <li><a href="students-init.html"><i className="fa fa-caret-right"></i>Students Initiatives</a></li>
                             <li><a href="contact.html"><i className="fa fa-caret-right"></i>Contact With Us</a></li>
                         </ul>
                     </div>
@@ -58,19 +58,19 @@ const Footer = () => {
                     </div>
                    
                 </div>
-                {/* <div className="col-lg-3 col-md-6 col-12">
+                <div className="col-lg-3 col-md-6 col-12">
                     
                     <div className="single-widget newsletter">
                         <h2>Newsletter</h2>
                         <p>Subscribe to our Newsletter and get to hear more about us</p>
                         <form>
-                            <input placeholder="Your Name" type="text">
-                            <input placeholder="your email" type="email">
+                            <input placeholder="Your Name" type="text" />
+                            <input placeholder="your email" type="email" />
                             <button type="submit" className="button primary">Subscribe Now!</button>
                         </form>	
                     </div>
                    
-                </div> */}
+                </div>
             </div>
         </div>
     </div>
