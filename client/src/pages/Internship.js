@@ -54,8 +54,7 @@ const Internship = () => {
 						<div className="single-service">
 							<i className="fa fa-wordpress"></i>
 							<h2><a href="/service">Web Development</a></h2>
-							<p>Websites are the heart behind the working of the Internet. Hence the
-								art of creating and hosting such websites on the Internet is the idea behind “Web Development”. It is one of the most important technical disciplines of modern computing and forms an integral part of any business.</p>
+							<p>This is the area of our expertise. We have the best mentors available to make great user-friendly websites that will attract customers for your products. Through SEO optimisation we will make sure that the website is displayed amongst the top ones of searches.</p>
 						</div>
 						{/* <!-- End Single Service --> */}
 					</div>
@@ -64,10 +63,7 @@ const Internship = () => {
 						<div className="single-service">
 							<i className="fa fa-lightbulb-o"></i>
 							<h2><a href="/service">Digital Marketing</a></h2>
-							<p>Digital marketing is a booming industry and learning under the
-								supervision of experts will help you become a successful Digital Marketer. Skills are the key
-								focus in any career, especially digital marketing. You will not only learn the required skills but
-								will get proof of your learnings and achievements.
+							<p>Digital Marketing Industry is really booming . Our varied Digital Marketing services include Social Media Marketing, Content Marketing, Video Marketing and Online advertisements, etc. Through these services we will make sure that your outreach is as wide as possible. 
 								</p>
 						</div>
 						{/* <!-- End Single Service --> */}
@@ -77,7 +73,7 @@ const Internship = () => {
 						<div className="single-service">
 							<i className="fa fa-bullhorn"></i>
 							<h2><a href="/service">Social Media Marketing</a></h2>
-							<p>Social media marketing is growing day-by-Social media is one common platform where billions of users stay connected . It is not always easy to get your foot in the door when aiming to work in competitive fields like social media marketing. That is where an internship can be useful. One of the biggest benefits of acquiring a marketing internship is the chance to gain experience from people who are experts in this field .
+							<p>This is yet another in demand role now-a-days. Companies pay a lot to active social media managers who can creatively manage the social media platform of the company. Social Media is the biggest weapon for a company to advertise and increase its outreach.
 								</p>
 						</div>
 						{/* <!-- End Single Service --> */}
@@ -96,7 +92,7 @@ const Internship = () => {
 						<div className="single-service">
 							<i className="fa fa-wordpress"></i>
 							<h2><a href="/service">App Development</a></h2>
-							<p>App design combines a low-threshold entry to programming with the ability to create apps that will create an impact . Joining this internship can help you to Learn how to solve hard logic problems and build interactive apps.
+							<p>We offer never before prices for cross platform app development for your enterprises. Apps can be used for a variety of purposes. The portability of Apps is helping enterprises track production stats and resources faster than ever. Apps offer widespread connectivity and can establish a direct bridge between the customer and the enterprise.
 								</p>
 						</div>
 						{/* <!-- End Single Service --> */}

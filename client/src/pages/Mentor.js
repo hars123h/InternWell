@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Team = () => {
+const Mentor = () => {
     return (
         <>
             	{/* <!-- Breadcrumbs --> */}
@@ -8,11 +8,11 @@ const Team = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
-						<h2><i className="fa fa-pencil"></i>Our Leaders</h2>
+						<h2><i className="fa fa-pencil"></i>Our Mentors</h2>
 						<ul>
 							<li><a href="/"><i className="fa fa-home"></i>Home</a></li>
 							<li><a href="/"><i className="fa fa-clone"></i>Pages</a></li>
-							<li className="active"><a href="/team"><i className="fa fa-clone"></i>Team</a></li>
+							<li className="active"><a href="/mentor"><i className="fa fa-clone"></i>Mentors</a></li>
 						</ul>
 					</div>
 				</div>
@@ -27,7 +27,7 @@ const Team = () => {
 					<div className="col-12">
 						<div className="section-title">
 							<span className="title-bg">Team</span>
-							<h1>Our Leaders</h1>
+							<h1>Our Mentors</h1>
 							<p>The team of Internwell firmly believes that , “ we cannot always build the
 								future for our youth but we can build our youth for the future .”</p>
 						</div>
@@ -40,9 +40,9 @@ const Team = () => {
 							{/* <!-- Team Head --> */}
 							<div className="t-head">
 								<img src="../images/t3.jpg" alt="#" />
-								{/* <div className="t-icon">
+								<div className="t-icon">
 									<a href="team-single.html"><i className="fa fa-plus"></i></a>
-								</div> */}
+								</div>
 							</div>
 							{/* <!-- Team Bottom --> */}
 							<div className="t-bottom">
@@ -93,4 +93,4 @@ const Team = () => {
     )
 }
 
-export default Team;
+export default Mentor;
