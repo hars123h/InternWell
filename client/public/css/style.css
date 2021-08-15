@@ -46,7 +46,7 @@
 }
 .header .nav li a {
 	color: #666;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-size: 14px;
 	font-weight: 400;
 	padding: 20px 0px;
@@ -60,14 +60,14 @@
 	visibility: hidden;
 	position: relative;
 	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .header .nav li.active a i, 
 .header .nav li:hover a i {
 	opacity: 1;
 	visibility: visible;
-	color: #fff;
+	color: #000;
 }
 .header .nav li:last-child a{
 	padding-right:0;
@@ -363,7 +363,7 @@
 	color:#fff;
 	border-color:transparent;
 }
-.hero-area .owl-controls .owl-nav div{}
+/* .hero-area .owl-controls .owl-nav div{} */
 .hero-area .owl-controls .owl-nav .owl-prev {
 	margin-bottom: 15px;
 }
@@ -830,7 +830,7 @@
 	font-size: 15px;
 }
 .team .single-team:hover .t-icon a {
-	-moz-transform:scale(1);
+	transform:scale(1);
 	opacity:1;
 	visibility:visible;
 }
@@ -1174,7 +1174,7 @@
 ========================================*/  
 .footer {
 	margin-top: 70px;
-	background-color: #333;
+	background-color: #000;
 	position: relative;
 }
 .footer .top-arrow .btn {
@@ -1231,7 +1231,7 @@
 	padding-left:5px;
 } 
 /* About Widget */
-.footer .single-widget.about{}
+/* .footer .single-widget.about{} */
 .footer .single-widget.about p {
 	color: #bbb;
 }

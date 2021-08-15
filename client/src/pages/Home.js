@@ -207,7 +207,7 @@ const Home = () => {
                     <div className="col-12">
                         <div className="service-slider">
                             {/* <!-- Single Service --> */}
-                            <div className="single-service">
+                            <div className="single-service" style={{minHeight: "150px"}}>
                                 <i className="fa fa-magic"></i>
                                 <h2><a href="/service">Digital Marketing</a></h2>
                                 <p>Digital marketing is a booming industry and learning under the
@@ -224,14 +224,14 @@ const Home = () => {
                             </div>
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
-                            <div className="single-service">
+                            <div className="single-service" style={{maxHeight: "390px"}}>
                                 <i className="fa fa-android" aria-hidden="true"></i>
                                 <h2><a href="/service"> App Development</a></h2>
-                                <p>App design combines a low-threshold entry to programming with the ability to create apps that will create an impact . Joining this internship can help you to Learn how to solve hard logic problems and build interactive apps.</p>
+                                <p>App design combines a low-threshold entry to programming with the ability to create apps that will create an impact . Joining this internship can help you to Learn how to solve hard logic problems and build interactive apps. Apps offer widespread connectivity and can establish a direct bridge between the customer and the enterprise.</p>
                             </div>
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
-                            <div className="single-service">
+                            <div className="single-service"style={{maxHeight: "395px"}}>
                                 <i className="fa fa-pencil-square-o" aria-hidden="true"></i>
 
                                 <h2><a href="/service">Content Writers</a></h2>
@@ -242,7 +242,7 @@ const Home = () => {
                             <div className="single-service">
                                 <i className="fa fa-share-square-o" aria-hidden="true"></i>
                                 <h2><a href="/service">Social Media Maketing</a></h2>
-                                <p>Social media marketing is growing day-by-Social media is one common platform where billions of users stay connected . It is not always easy to get your foot in the door when aiming to work in competitive fields like social media marketing. That is where an internship can be useful. One of the biggest benefits of acquiring a marketing internship is the chance to gain experience from people who are experts in this field .</p>
+                                <p>Social media marketing is growing day-by-Social media is one common platform where billions of users stay connected . It is not always easy to get your foot in the door when aiming to work in competitive fields like social media marketing. That is where an internship can be useful.</p>
                             </div>
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}

@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Service from './pages/Service';
 import Team from './pages/Team'
+import Mentor from './pages/Mentor'
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Internship from './pages/Internship';
@@ -33,6 +34,7 @@ function App() {
           <Route path="/about" component={About}></Route>
           <Route path="/services" component={Service}></Route>
           <Route path="/team" component={Team}></Route>
+          <Route path="/mentor" component={Mentor}></Route>
           <Route path="/internshp" component={Internship}></Route>
           <Route path="/student-init" component={StudentInit}></Route>
           <Route path="/society-init" component={SocietyInit}></Route>
