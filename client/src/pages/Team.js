@@ -40,9 +40,9 @@ const Team = () => {
 							{/* <!-- Team Head --> */}
 							<div className="t-head">
 								<img src="../images/t3.jpg" alt="#" />
-								<div className="t-icon">
+								{/* <div className="t-icon">
 									<a href="team-single.html"><i className="fa fa-plus"></i></a>
-								</div>
+								</div> */}
 							</div>
 							{/* <!-- Team Bottom --> */}
 							<div className="t-bottom">

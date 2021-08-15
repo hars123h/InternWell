@@ -58,7 +58,7 @@ const Service = () => {
 						<div className="single-service">
 							{/* <i className="fa fa-wordpress"></i> */}
 							<h2><a href="service-single.html">Web Development</a></h2>
-							<p>This is the area of our expertise. We have the best mentors available to make great user-friendly websites that will attract customers for your products. Through SEO optimisation we will make sure that the website is displayed amongst the top ones of searches. InternWell also makes use of latest web development technologies like React to build dynamic websites.</p>
+							<p>This is the area of our expertise. We have the best mentors available to make great user-friendly websites that will attract customers for your products. Through SEO optimisation we will make sure that the website is displayed amongst the top ones of searches. </p>
 						</div>
 						{/* <!-- End Single Service --> */}
 					</div>
@@ -67,7 +67,7 @@ const Service = () => {
 						<div className="single-service">
 							{/* <i className="fa fa-bullhorn "></i> */}
 							<h2><a href="service-single.html">Digital Marketing</a></h2>
-							<p>Our varied Digital Marketing services include Social Media Marketing, Content Marketing, Video Marketing and Online advertisements, etc. Through these services we will make sure that your outreach is as wide as possible.</p>
+							<p>Digital Marketing Industry is really booming in the era of Internet. Our varied Digital Marketing services include Social Media Marketing, Content Marketing, Video Marketing and Online advertisements, etc. Through these services we will make sure that your outreach is as wide as possible. This is a great skill to have in your resume.</p>
 						</div>
 						{/* <!-- End Single Service --> */}
 					</div>
@@ -85,7 +85,7 @@ const Service = () => {
 						<div className="single-service">
 							<i className="fa fa-lightbulb-o"></i>
 							<h2><a href="service-single.html">Social Media Marketing</a></h2>
-							<p>This is yet another in demand role now-a-days. Companies pay a lot to active social media managers who can creatively manage the social media platform of the company. Social Media is the biggest weapon for a company to advertise and increase its outreach. This is a great skill to have in your resume.</p>
+							<p>This is yet another in demand role now-a-days. Companies pay a lot to active social media managers who can creatively manage the social media platform of the company. Social Media is the biggest weapon for a company to advertise and increase its outreach. </p>
 						</div>
 						{/* <!-- End Single Service --> */}
 					</div>
