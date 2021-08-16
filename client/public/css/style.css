@@ -620,10 +620,15 @@
 	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
 	padding: 40px 20px;
+	
 }
 /* Services Single */
 .services.single{
 	padding:50px 0 80px;
+	
+}
+.services .single-service {
+	height: 500px !important;
 }
 .services.single .services-main{
 	background:#fff;

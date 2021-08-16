@@ -38,7 +38,7 @@ const SocietyInit = () => {
                 <div className="row">
 					<div className="col-lg-4 col-md-6 col-12">
 						{/* <!-- Single Service --> */}
-						<div className="single-service">
+						<div className="single-service mb-5">
 							<i className="fa fa-magic"></i>
 							<h2><a href="/service">Fund Raisers</a></h2>
 							<p>InternWell orgainsation always steps forward for helping the needy ones to raise funds who themselves cannot arrange that much money and are in urgent need of money but cannot reach out to those people </p>
@@ -47,7 +47,7 @@ const SocietyInit = () => {
 					</div>
 					<div className="col-lg-4 col-md-6 col-12">
 						{/* <!-- Single Service --> */}
-						<div className="single-service">
+						<div className="single-service mb-5">
 							<i className="fa fa-magic"></i>
 							<h2><a href="/service">COVID Volunteers</a></h2>
 							<p>During this COVID-19 Pandemic, InternWell orgainsation has tried its best to reach out the needy ones, organising social camps, reaching out to doctors and hospitals, helping various patients also in arranging beds and other equipments.</p>
@@ -56,7 +56,7 @@ const SocietyInit = () => {
 					</div>
 					<div className="col-lg-4 col-md-6 col-12">
 						{/* <!-- Single Service --> */}
-						<div className="single-service">
+						<div className="single-service mb-5">
 							<i className="fa fa-magic"></i>
 							<h2><a href="/service">Donation in PM Cares Fund</a></h2>
 							<p>During this COVID-19 Pandemic, InternWell orgainsation has also donated in PM Cares Fund which can be used for relief efforts against the coronavirus outbreak and similar pandemic like situations in the future</p>
@@ -65,7 +65,7 @@ const SocietyInit = () => {
 					</div>
 					<div className="col-lg-4 col-md-6 col-12">
 						{/* <!-- Single Service --> */}
-						<div className="single-service">
+						<div className="single-service mb-5">
 							<i className="fa fa-magic "></i>
 							<h2><a href="/service">Vaccine Volunteers</a></h2>
 							<p>InternWell orgainsation has also played a major role as a Vaccine Volunteer by guiding people at Vaccination sites, helps clinical team and administration in managing the patients and other stuff.</p>
