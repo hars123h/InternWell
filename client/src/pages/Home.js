@@ -220,7 +220,11 @@ const Home = () => {
                             <div className="single-service">
                                 <i className="fa fa-desktop" aria-hidden="true"></i>
                                 <h2><a href="/service">Web Development</a></h2>
-                                <p>Websites are the heart behind the working of the Internet. Hence the art of creating and hosting such websites on the Internet is the idea behind “Web Development”. It is one of the most important technical disciplines of modern computing and forms an integral part of any business.</p>
+                                <p>Websites are the heart behind the working of the Internet.
+                                 Hence the art of creating and hosting such websites on the Internet is the idea
+                                  behind “Web Development”. It is one of the most important technical
+                                   disciplines of modern computing and forms an integral part of any business.Apps offer widespread connectivity and can establish a direct bridge between the customer and the enterprise.
+                                   </p>
                             </div>
                             {/* <!-- End Single Service -->
                             <!-- Single Service --> */}

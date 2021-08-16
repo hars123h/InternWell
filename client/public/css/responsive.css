@@ -139,7 +139,7 @@
         visibility:visible;
     }
     .services .single-service {
-        height: 250px;
+        height: 400px;
     }
     .services button{
         width:auto;
@@ -313,7 +313,7 @@
         padding: 12px 18px;
     }
     .services .single-service {
-        height: 250px;
+        height: 400px;
     }
     .services button,
     .testimonials button{

@@ -83,7 +83,7 @@ const Service = () => {
 					<div className="col-lg-4 col-md-6 col-12">
 						{/* <!-- Single Service --> */}
 						<div className="single-service">
-							<i className="fa fa-lightbulb-o"></i>
+							{/* <i className="fa fa-lightbulb-o"></i> */}
 							<h2><a href="service-single.html">Social Media Marketing</a></h2>
 							<p>This is yet another in demand role now-a-days. Companies pay a lot to active social media managers who can creatively manage the social media platform of the company. Social Media is the biggest weapon for a company to advertise and increase its outreach. This is a great skill to have in your resume.</p>
 						</div>

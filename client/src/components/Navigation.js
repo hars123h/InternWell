@@ -28,7 +28,8 @@ const Navigation = ({ children, history }) => {
 												<ul className="dropdown">
 													<li><Link to="/about">About Us</Link></li>
 													<li><Link to="/team">Our Team</Link></li>
-													{/* <!-- <li><a href="pricing.html">Pricing</a></li> --> */}
+													<li><Link to="/team">Our Mentor</Link></li>
+													
 												</ul>
 											</li>
 											<li><Link to="/services">Services</Link></li>
