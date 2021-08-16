@@ -770,230 +770,86 @@
 ========================================*/ 
 .team{
 	background:#f6f6f6;
-	position: relative;
+	
+}
+.team .team-area {
+	padding-top: 5%;
 }
 .team .single-team {
 	background: #fff;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	margin-top: 30px;
+	margin-bottom: 10px;
+	border-radius: 20px;
 }
-.team .t-head{
-	position:relative;
-	overflow:hidden;
+
+.single-team:hover .social{
+	cursor: pointer;
+	opacity: 1;
+	transform: rotateY(0deg) scale(1, 1);
 }
-.team .t-head::before {
-	position: absolute;
-	top: 0;
-	left: 0;
+.img-area {
+	overflow: hidden;
+	position: relative;
+	border-radius: 10px;
+}
+.img-area img {
 	width: 100%;
-	height: 100%;
-	background: #fff;
-	opacity:0;
-	visibility:hidden;
-	content: "";
-	z-index: 2;
-	-webkit-transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	transition:all 0.3s ease;
 }
-.team .single-team:hover .t-head::before{
-	visibility:visible;
-	opacity:0.5;
+.img-area:hover img {
+	transform: scale(1.2)
 }
-.team .t-head img{
-	width:100%;
-	position:relative;
+.img-area img {
+	transition: all 0.4s ease 0s;
 }
-.team .t-icon a {
-	position: absolute;
-	left: 50%;
-	top: 50%;
+@media (max-width: 768px) {
+	.img-area img {
+		display: inline-block;
+	}
+}
+.img-area .social {
+		background-color: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		text-align: center !important;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+		opacity: 0;
+		transition: .5s;
+		transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.img-area .social ul li a {
+	border: 1px solid #fff;
+	color: #fff;
+	display: block;
+	font-size: 20px;
 	width: 40px;
-	height: 40px;
 	line-height: 40px;
-	opacity: 0;
-	visibility: hidden;
-	font-weight: 400;
-	text-align: center;
-	color: #fff;
-	border-radius: 100%;
-	-webkit-transform:scale(0.6);
-	-moz-transform:scale(0.6);
-	transform:scale(0.6);
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	z-index: 99;
-	margin: -20px 0 0 -20px;
-	font-size: 15px;
-}
-.team .single-team:hover .t-icon a {
-	-moz-transform:scale(1);
-	opacity:1;
-	visibility:visible;
-}
-.team .t-icon a:hover{
-	background:#333;
-}
-.team .t-bottom {
-	text-align: left;
-	position: relative;
-	padding: 0 20px;
-}
-.team .t-bottom p {
-	color: #666;
-	padding-top: 12px;
-}
-.team .t-bottom h2 {
-	font-size: 18px;
-	text-transform: capitalize;
-	padding-bottom: 12px;
-}
-.team .t-social {
-	background: #fff;
-	width: 100%;
-	z-index: 33;
-	padding: 8px 0;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	top: 100%;
-	border-top: 1px solid #e7e7e7;
-}
-.team .single-team:hover .t-social {
-	opacity:1;
-	visibility: visible;
-}
-.team .t-social li {
-	display:inline-block;
-	margin-right:10px;
-}
-.team .t-social li:last-child{
-	margin:0;
-}
-.team .t-social li a {
-	display: block;
-	color: #666;
 	text-align: center;
 }
-/* Team Single */
-.team.single {
-	padding: 0;
-	z-index: 44;
-	background: #f6f6f6;
-	padding: 50px 0 80px;
+
+.img-area .social ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	border: 1px solid transparent;
 }
-.team.single .about-slider {
-	margin-top: 30px;
-	background: #333;
+
+.img-text {
+	padding: 25px;
+	color: #000;
+	text-align: center;
 }
-.team.single .about-info {
-	padding:20px;
+img-text h4 {
+	margin: 0 0 5px;
+	font-size: 30px;
+	font-family: bignoodletitling;
+	letter-spacing: 5px;
 }
-.team.single .about-info h2 {
-	font-size: 20px;
+
+img-text p {
+	
+	font-size: 12px;
 	text-transform: uppercase;
-	margin-bottom: 20px;
-	color: #fff;
-}
-.team.single .about-info p{
-	color:#fff;
-	margin-bottom:15px;
-}
-.team.single .about-info p:last-child{
-	margin-bottom:0px;
-}
-.team.single .contact {
-	position: relative;
-}
-.team.single .contact li {
-	margin-bottom: 15px;
-	color: #fff;
-	position: relative;
-	padding-left: 35px;
-}
-.team.single .contact li:last-child{
-	margin:0;
-}
-.team.single .contact li i {
-	position: absolute;
-	left: 0;
-	width: 25px;
-	height: 25px;
-	display: block;
-	border-radius: 100%;
-	text-align: center;
-	line-height: 25px;
-	color: #fff;
-	font-size: 13px;
-}
-.team.single .about-info.skills .single-progress {
-	margin-top: 40px;
-}
-.team.single .skills .single-progress h4 {
-	color:#fff;
-	font-size: 15px;
-	margin-bottom: 15px;
-}
-.team.single .skills p{
-	margin-bottom:0px;
-}
-.team.single .skills .progress {
-	background: #f6f6f6;
-	border-radius: 0px;
-	border-radius: 30px 0 0 30px;
-	height: 10px;
-	overflow: visible;
-}
-.team.single .skills .progress .progress-bar {
-	border-radius: 30px;
-	position:relative;
-}
-.team.single .skills .progress .percent {
-	border-radius: 30px;
-	position: absolute;
-	right: 0;
-	top: -43px;
-	padding: 5px;
-	font-weight: 600;
-	display: table-cell;
-}
-.team.single .skills .progress .percent::before {
-	position: absolute;
-	left: 50%;
-	bottom: 0;
-	content: "";
-	border-top: 8px solid;
-	border-left: 13px solid transparent;
-	margin-left: -8px;
-	top: 93%;
-}
-/* Slider Meta */
-.team.single .owl-nav {
-	position: absolute;
-	right: 5px;
-	bottom: 5px;
-}
-.team.single .owl-nav div {
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	padding: 0;
-	border-radius:3px;
-	font-size: 20px;
-	margin: 0 5px 0 0;
-	-webkit-transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	transition:all 0.3s ease;
-}
-.team.single .owl-nav div:hover{
-	background:#fff;
-	color:#333;
-}
-.team.single .owl-nav div:last-child{
-	margin:0;
+	
 }
 /*======================================
 	End Team CSS
