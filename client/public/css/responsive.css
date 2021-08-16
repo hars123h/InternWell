@@ -141,6 +141,9 @@
     .services .single-service {
         height: 400px;
     }
+    .student-card {
+        min-height: 620px !important;
+    }
     .services button{
         width:auto;
         height:auto;
@@ -314,6 +317,9 @@
     }
     .services .single-service {
         height: 400px;
+    }
+    .student-card {
+        min-height: 650px !important;
     }
     .services button,
     .testimonials button{

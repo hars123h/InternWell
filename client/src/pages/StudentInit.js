@@ -38,9 +38,9 @@ const StudentInit = () => {
                 <div className="row">
 					<div className="col-lg-6 col-md-6 ">
 						{/* <!-- Single Service --> */}
-						<div className="single-service ">
+						<div className="single-service student-card mb-5">
 							{/* <i className="fa fa-magic"></i> */}
-							<h1><a href="#">InternWell Mentorship Program</a></h1><br /><br />
+							<h1 style={{fontSize: "30px", color: "#015ac2"}}>InternWell Mentorship Program</h1><br /><br />
                             <h4>About Initiative:</h4>
 							<p>InternWell presents a “6 months mentorship program”. Get connected to some great experts from various domains utilizes a wide range of resources such as internship opportunities, insights from the experiments of Internwell, course materials, etc. <br/>
                             And Get trained for a sparkling future ahead; on behalf of Internwell.</p>
@@ -57,9 +57,9 @@ const StudentInit = () => {
 					</div>
 					<div className="col-lg-6 col-md-6">
 						{/* <!-- Single Service --> */}
-						<div className="single-service">
+						<div className="single-service student-card">
 							{/* <i className="fa fa-lightbulb-o"></i> */}
-							<h1><a href="#">Skilldom 2.0</a></h1> <br /><br />
+							<h1 style={{fontSize: "30px", color: "#015ac2"}}>Skilldom 2.0</h1> <br /><br />
                             <h4>About Initiative:</h4>
 							<p>An 18 – day online course that will help you shape your dreams into reality. The nation is currently on lockdown but don’t worry, the internet and electricity are still active. Many students wait for a time when no one will stop them from pursuing their passion.</p> <br />
                             <p>One of the major highlights of this event will be that mentors not only from India but also from all around the globe will impart their knowledge and experiences with us. <br />
