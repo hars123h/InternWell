@@ -2,7 +2,8 @@ import React, { Fragment } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { isAuth, signout } from '../auth/helpers';
 
-const Navigation = ({ children, history }) => {
+const Navigation = ({ children, history, match }) => {
+	
 
 	return (
 		<>
@@ -24,12 +25,12 @@ const Navigation = ({ children, history }) => {
 									<nav className="navigation">
 										<ul className="nav menu">
 											<li className="active"><a href="/">Home</a></li>
-											<li><a href="#/">Pages<i className="fa fa-caret-down"></i></a>
+											<li><a>Pages<i className="fa fa-caret-down"></i></a>
 												<ul className="dropdown">
 													<li><Link to="/about">About Us</Link></li>
 													<li><Link to="/team">Our Team</Link></li>
 													<li><Link to="/team">Our Mentor</Link></li>
-													
+
 												</ul>
 											</li>
 											<li><Link to="/services">Services</Link></li>
@@ -40,7 +41,7 @@ const Navigation = ({ children, history }) => {
 													<li><a href="/society-init">Initiative for Society</a></li>
 												</ul>
 											</li>
-											<li><a href ="/contact">Contact</a></li>
+											<li><a href="/contact">Contact</a></li>
 											{!isAuth() && (
 												<Fragment>
 													<li className="nav-item">
@@ -77,7 +78,7 @@ const Navigation = ({ children, history }) => {
 
 												<li className="nav-item">
 													<a
-														
+
 														style={{ cursor: 'pointer', color: '#000' }}
 														onClick={() => {
 															signout(() => {
