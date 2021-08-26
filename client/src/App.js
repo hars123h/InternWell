@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import Internship from './pages/Internship';
 import StudentInit from './pages/StudentInit';
 import SocietyInit from './pages/SocietyInit';
-
+import Mentor from './pages/Mentor'
 import Signup from './auth/Signup';
 import Signin from './auth/Signin';
 import Activate from './auth/Activate';
@@ -34,7 +34,7 @@ function App() {
           <Route path="/student-init" component={StudentInit}></Route>
           <Route path="/society-init" component={SocietyInit}></Route>
           <Route path="/contact" component={Contact}></Route>
-
+          <Route path="/mentor" component={Mentor}></Route>
           <Route path="/signup" exact component={Signup} />
           <Route path="/signin" exact component={Signin} />
           <Route path="/auth/activate/:token" exact component={Activate} />
