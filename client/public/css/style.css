@@ -691,7 +691,7 @@
 	margin-top:30px;
 }
 .services.single .services-content h2 {
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 	font-size: 25px;
 	margin-bottom: 20px;
 }
@@ -948,13 +948,13 @@ img-text h4 {
  p {
 	/* color: #fff; */
 	font-size: 12px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .social p {
 	color: #fff;
 	font-size: large;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 }
 /*======================================
 	End Mentor CSS
