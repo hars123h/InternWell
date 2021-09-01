@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 
 const About = () => {
     return (
@@ -10,9 +11,9 @@ const About = () => {
 					<div className="col-12">
 						<h2><i className="fa fa-pencil"></i>About Our Company</h2>
 						<ul>
-							<li><a href="/"><i className="fa fa-home"></i>Home</a></li>
-							<li><a href="/"><i className="fa fa-clone"></i>Pages</a></li>
-							<li className="active"><a href="/about"><i className="fa fa-clone"></i>About Us</a></li>
+							<li><NavLink to="/"><i className="fa fa-home"></i>Home</NavLink></li>
+							<li><NavLink to="/"><i className="fa fa-clone"></i>Pages</NavLink></li>
+							<li className="active"><NavLink to="/about"><i className="fa fa-clone"></i>About Us</NavLink></li>
 						</ul>
 					</div>
 				</div>
@@ -41,7 +42,7 @@ const About = () => {
 						{/* <!-- Video --> */}
 						<div className="about-video">
 							<div className="single-video overlay">
-								<a href="https://www.youtube.com/watch?v=E-2ocmhF6TA" className="video-popup mfp-fade"><i className="fa fa-play"></i></a>
+								<NavLink to="https://www.youtube.com/watch?v=E-2ocmhF6TA" className="video-popup mfp-fade"><i className="fa fa-play"></i></NavLink>
 								<img src="../images/gallery-4.jpg" alt="#" />
 							</div>
 						</div>

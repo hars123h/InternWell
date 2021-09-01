@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { Link, NavLink, withRouter } from 'react-router-dom';
 import { isAuth, signout } from '../auth/helpers';
 
 const Navigation = ({ children, history, match }) => {
@@ -14,9 +14,9 @@ const Navigation = ({ children, history, match }) => {
 						<div className="row">
 							<div className="col-lg-2 col-12">
 								<div className="logo">
-									<a href="/"><img src="../../images/internlogo.png" style={{ width: "100px" }} alt="logo" /></a>
+									<NavLink to="/"><img src="../../images/internlogo.png" style={{ width: "100px" }} alt="logo" /></NavLink>
 								</div>
-								<div className="link"><a href="/"><img src="../../images/internlogo.png" style={{ width: "100px" }} alt="logo" /></a></div>
+								<div className="link"><NavLink to="/"><img src="../../images/internlogo.png" style={{ width: "100px" }} alt="logo" /></NavLink></div>
 								<button className="mobile-arrow"><i className="fa fa-bars"></i></button>
 								<div className="mobile-menu"></div>
 							</div>
@@ -24,7 +24,7 @@ const Navigation = ({ children, history, match }) => {
 								<div className="mainmenu">
 									<nav className="navigation">
 										<ul className="nav menu">
-											<li className="active"><a href="/">Home</a></li>
+											<li className="active"><NavLink to="/">Home</NavLink></li>
 											<li><a>Pages<i className="fa fa-caret-down"></i></a>
 												<ul className="dropdown">
 													<li><Link to="/about">About Us</Link></li>
@@ -77,7 +77,6 @@ const Navigation = ({ children, history, match }) => {
 
 												<li className="nav-item">
 													<a
-
 														style={{ cursor: 'pointer', color: '#000' }}
 														onClick={() => {
 															signout(() => {

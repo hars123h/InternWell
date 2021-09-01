@@ -12,8 +12,8 @@ const Mentor = () => {
 						<div className="col-12">
 							<h2><i className="fa fa-pencil"></i>Our Mentors</h2>
 							<ul>
-								<li><a href="/"><i className="fa fa-home"></i>Home</a></li>
-								<li><a href="/"><i className="fa fa-clone"></i>Pages</a></li>
+								<li><NavLink to="/"><i className="fa fa-home"></i>Home</NavLink></li>
+								<li><NavLink to="/"><i className="fa fa-clone"></i>Pages</NavLink></li>
 								<li className="active"><a href="/mentor"><i className="fa fa-clone"></i>Mentors</a></li>
 							</ul>
 						</div>
