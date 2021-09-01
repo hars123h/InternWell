@@ -36,11 +36,11 @@ const Navigation = ({ children, history, match }) => {
 											<li><Link to="/internshp">Internship</Link></li>
 											<li><Link to="/">Social Initiative<i className="fa fa-caret-down"></i></Link>
 												<ul className="dropdown">
-													<li><a href="/student-init">Initiative for Students</a></li>
-													<li><a href="/society-init">Initiative for Society</a></li>
+													<li><Link to="/student-init">Initiative for Students</Link></li>
+													<li><Link to="/society-init">Initiative for Society</Link></li>
 												</ul>
 											</li>
-											<li><a href="/contact">Contact</a></li>
+											<li><Link to="/contact">Contact</Link></li>
 											{!isAuth() && (
 												<Fragment>
 													<li className="nav-item">

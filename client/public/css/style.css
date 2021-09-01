@@ -888,7 +888,9 @@ img-text p {
 	border-radius: 10px;
 }
 .img-area img {
-	width: 100%;
+	object-fit: cover;
+	width: 500px;
+	height: 400px;
 }
 .img-area:hover img {
 	transform: scale(1.2)
