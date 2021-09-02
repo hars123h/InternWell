@@ -13,8 +13,8 @@ const Home = () => {
                                 <div className="col-lg-7 col-md-6 col-12">
                                     {/* <!-- Slider Text --> */}
                                     <div className="slider-text">
-                                        <h1>Internwell <span>Business</span> World That Possible anything<span>!</span></h1>
-                                        <p>The vision of team internwell is to build a strong bridge between the world
+                                        <h1>InternWell <span>Business</span> World That Possible anything<span>!</span></h1>
+                                        <p>The vision of team InternWell is to build a strong bridge between the world
                                             of education and the world of work in order to equip the youth with the right skills and ideas. </p>
                                         <div className="button">
                                             <button className="btn">Our Portfolio</button>
@@ -27,7 +27,7 @@ const Home = () => {
                                     {/* <!-- Image Gallery --> */}
                                     <div className="image-gallery">
                                         <div className="single-image">
-                                            <img src="../images/slider/gallery-image1.jpg" alt="#" />
+                                            <img src="../images/slider/gallery-image1.jpg" alt="hwlllo" />
                                         </div>
                                         <div className="single-image two">
                                             <img src="../images/slider/gallery-image2.jpg" alt="#" />
@@ -58,7 +58,7 @@ const Home = () => {
                                 <div className="col-lg-7 col-md-6 col-12">
                                     {/* <!-- Slider Text --> */}
                                     <div className="slider-text text-right">
-                                        <h1>Internwell <span>Business</span> World That Possible anything<span>!</span></h1>
+                                        <h1>InternWell <span>Business</span> World That Possible anything<span>!</span></h1>
                                         <p>Our main aim is to bring the youth, especially from remote areas into the
                                             skilled workforce of our country so that they can secure a better livelihood for themselves.
                                         </p>
@@ -80,7 +80,7 @@ const Home = () => {
                                 <div className="col-lg-10 offset-lg-1 col-12">
                                     {/* <!-- Slider Text --> */}
                                     <div className="slider-text text-center">
-                                        <h1>Build your business with Internwell </h1>
+                                        <h1>Build your business with InternWell </h1>
                                         <p>Our vision is to boost ENTREPRENEURSHIP in India by exposing the
                                             young minds to the actual work skills required in today’s time.
                                             We need to ensure that we learn to pursue our passion because it will
@@ -106,7 +106,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-title wow fadeInUp">
-                                <span className="title-bg">Internwell</span>
+                                <span className="title-bg">InternWell</span>
                                 <h1>About Company</h1>
                                 <p>A Socio-Startup that aims to provide digital solutions to the SMEs & let their
                                     businesses soar to new heights by getting developed customised Websites & Apps,
@@ -197,10 +197,10 @@ const Home = () => {
                             <div className="section-title">
                                 <span className="title-bg">Services</span>
                                 <h1>What we provide</h1>
-                                <p>We here at Internwell provide various internship programmes wherein interns get a chance to work on a number of live projects.
+                                <p>We here at InternWell provide various internship programmes wherein interns get a chance to work on a number of live projects.
                                     Being a part of live projects will serve as a medium for getting exposed to real
                                     life challenges in this competitive world. We have a dedicated team of experts
-                                    at Internwell who mentor and work tirelessly to guide the interns while working
+                                    at InternWell who mentor and work tirelessly to guide the interns while working
                                     on live projects.</p>
                             </div>
                         </div>
@@ -297,7 +297,7 @@ const Home = () => {
             <section id="partners" className="partners section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 wow fadeInUp">
+                        <div className="col-12 ">
                             <div className="section-title">
                                 <span className="title-bg">Clients</span>
                                 <h1>Our Partners</h1>
@@ -328,7 +328,7 @@ const Home = () => {
                                 <!-- Single Partner --> */}
                                     <div className="col-lg-2 col-md-3 col-12">
                                         <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-3.png" alt="#" /></a>
+                                            <a href="#/" target="_blank"><img src="../images/partner-3.jpg" alt="#" /></a>
                                         </div>
                                     </div>
                                     {/* <!--/ End Single Partner -->
@@ -370,31 +370,18 @@ const Home = () => {
                                 <!-- Single Partner --> */}
                                     <div className="col-lg-2 col-md-3 col-12">
                                         <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-5.png" alt="#" /></a>
+                                            <a href="#/" target="_blank"><img src="../images/partner-9.png" alt="#" /></a>
                                         </div>
                                     </div>
                                     {/* <!--/ End Single Partner -->
                                 <!-- Single Partner --> */}
                                     <div className="col-lg-2 col-md-3 col-12">
                                         <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-6.png" alt="#" /></a>
+                                            <a href="#/" target="_blank"><img src="../images/partner-10.png" alt="#" /></a>
                                         </div>
                                     </div>
                                     {/* <!--/ End Single Partner -->
                                 <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-7.png" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner -->
-                                <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-3.png" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner --> */}
                                 </div>
                             </div>
                         </div>
