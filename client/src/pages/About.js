@@ -29,7 +29,7 @@ const About = () => {
 						<div className="section-title">
 							<span className="title-bg">InternWell</span>
 							<h1>About Company</h1>
-							<p>
+							<p style={{fontSize: "13px"}}>
 								A Socio-Startup that aims to provide digital solutions to the SMEs & let
                                  their businesses soar to new heights by getting developed customised
                                   Websites & Apps, by the budding interns who in turn get a chance to hone
@@ -52,14 +52,15 @@ const About = () => {
 						{/* <!-- About Content --> */}
 						<div className="about-content">
 							<h2>A world className platform for the young undergrads to scale up their skills & potentials !!</h2>
-							<p>Internships are a great way to showcase skillset to employers. They provide with experience of how the industry works & functions. Working on a live project provides a cutting edge over the competitors as it adds up as a bonus to the resume. We here at InternWell provide interns with hands-on experience on the projects that we take up from SMEs under the mentorship of experts from our team.</p>
-							<p>Based on the performance, the interns might also receive some stipend. We require the interns to have some basic know-how of the desired work before applying for, as the interns will get to worl real-life projects that we obtain from an enterprises. Furthermore, we have a dedicated team of experts who mentor and guide the interns working on the live projects. Our team members make sure that the projects are carved with perfection and delivered before the deadline.</p>
-
-							<p>We require people who have good enough skills, have minimum experience, and can dedicate enough time to the company. InternWell in its starting stages will be providing experience and a great platform to develop your skills at the ease of your home. Interested? Drop us a message and we will look into it...</p>
+							<p style={{fontSize: "14px"}}>Internships are a great way to showcase skillset to employers. They provide with experience of how the industry works & functions. Working on a live project provides a cutting edge over the competitors as it adds up as a bonus to the resume. We here at InternWell provide interns with hands-on experience on the projects that we take up from SMEs under the mentorship of experts from our team.</p>
+							<p style={{fontSize: "14px"}}>Based on the performance, the interns might also receive some stipend. We require the interns to have some basic know-how of the desired work before applying for, as the interns will get to worl real-life projects that we obtain from an enterprises. Furthermore, we have a dedicated team of experts who mentor and guide the interns working on the live projects. Our team members make sure that the projects are carved with perfection and delivered before the deadline.</p>
 						</div>
 						{/* <!--/ End About Content --> */}
 					</div>
+					
 				</div>
+				<br />
+					<br />
 				<div className="row">
 					<div className="col-12">
 						<div className="progress-main">

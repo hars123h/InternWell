@@ -43,11 +43,11 @@ const Navigation = ({ children, history, match }) => {
 											<li><Link to="/contact">Contact</Link></li>
 											{!isAuth() && (
 												<Fragment>
-													<li className="nav-item">
+													{/* <li className="nav-item">
 														<Link to="/signin" className="nav-link" >
 															Signin
 														</Link>
-													</li>
+													</li> */}
 													<li className="nav-item">
 														<Link to="/signup" className="nav-link" >
 															Signup

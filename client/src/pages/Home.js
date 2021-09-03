@@ -14,7 +14,7 @@ const Home = () => {
                                     {/* <!-- Slider Text --> */}
                                     <div className="slider-text">
                                         <h1>InternWell <span>Business</span> World That Possible anything<span>!</span></h1>
-                                        <p>The vision of team InternWell is to build a strong bridge between the world
+                                        <p style={{fontSize: "15px"}}>The vision of team InternWell is to build a strong bridge between the world
                                             of education and the world of work in order to equip the youth with the right skills and ideas. </p>
                                         <div className="button">
                                             <button className="btn">Our Portfolio</button>
@@ -59,7 +59,7 @@ const Home = () => {
                                     {/* <!-- Slider Text --> */}
                                     <div className="slider-text text-right">
                                         <h1>InternWell <span>Business</span> World That Possible anything<span>!</span></h1>
-                                        <p>Our main aim is to bring the youth, especially from remote areas into the
+                                        <p style={{fontSize: "15px"}}>Our main aim is to bring the youth, especially from remote areas into the
                                             skilled workforce of our country so that they can secure a better livelihood for themselves.
                                         </p>
                                         <div className="button">
@@ -81,7 +81,7 @@ const Home = () => {
                                     {/* <!-- Slider Text --> */}
                                     <div className="slider-text text-center">
                                         <h1>Build your business with InternWell </h1>
-                                        <p>Our vision is to boost ENTREPRENEURSHIP in India by exposing the
+                                        <p style={{fontSize: "15px"}}>Our vision is to boost <b>ENTREPRENEURSHIP</b> in India by exposing the
                                             young minds to the actual work skills required in today’s time.
                                             We need to ensure that we learn to pursue our passion because it will
                                             inspire us and drive us to improve ourselves .</p>
@@ -108,7 +108,7 @@ const Home = () => {
                             <div className="section-title wow fadeInUp">
                                 <span className="title-bg">InternWell</span>
                                 <h1>About Company</h1>
-                                <p>A Socio-Startup that aims to provide digital solutions to the SMEs & let their
+                                <p style={{fontSize: "13px"}}>A Socio-Startup that aims to provide digital solutions to the SMEs & let their
                                     businesses soar to new heights by getting developed customised Websites & Apps,
                                     by the budding interns who in turn get a chance to hone their skills & become future
                                     ready.</p>
@@ -130,10 +130,10 @@ const Home = () => {
                             {/* <!-- About Content --> */}
                             <div className="about-content">
                                 <h2>A world className platform for the young undergrads to scale up their skills & potentials !!</h2>
-                                <p>Internships are a great way to showcase skillset to employers. They provide with experience of how the industry works & functions. Working on a live project provides a cutting edge over the competitors as it adds up as a bonus to the resume. We here at InternWell provide interns with hands-on experience on the projects that we take up from SMEs under the mentorship of experts from our team.</p>
-                                <p>Based on the performance, the interns might also receive some stipend. We require the interns to have some basic know-how of the desired work before applying for, as the interns will get to worl real-life projects that we obtain from an enterprises. Furthermore, we have a dedicated team of experts who mentor and guide the interns working on the live projects. Our team members make sure that the projects are carved with perfection and delivered before the deadline.</p>
+                                <p style={{fontSize: "13px"}}>Internships are a great way to showcase skillset to employers. They provide with experience of how the industry works & functions. Working on a live project provides a cutting edge over the competitors as it adds up as a bonus to the resume. We here at InternWell provide interns with hands-on experience on the projects that we take up from SMEs under the mentorship of experts from our team.</p>
+                                <p style={{fontSize: "13px"}}>Based on the performance, the interns might also receive some stipend. We require the interns to have some basic know-how of the desired work before applying for, as the interns will get to worl real-life projects that we obtain from an enterprises. Furthermore, we have a dedicated team of experts who mentor and guide the interns working on the live projects. Our team members make sure that the projects are carved with perfection and delivered before the deadline.</p>
 
-                                <p>We require people who have good enough skills, have minimum experience, and can dedicate enough time to the company. InternWell in its starting stages will be providing experience and a great platform to develop your skills at the ease of your home. Interested? Drop us a message and we will look into it...</p>
+                                <p style={{fontSize: "13px"}}>We require people who have good enough skills, have minimum experience, and can dedicate enough time to the company. InternWell in its starting stages will be providing experience and a great platform to develop your skills at the ease of your home. Interested? Drop us a message and we will look into it...</p>
                             </div>
                             {/* <!--/ End About Content --> */}
                         </div>
@@ -197,7 +197,7 @@ const Home = () => {
                             <div className="section-title">
                                 <span className="title-bg">Services</span>
                                 <h1>What we provide</h1>
-                                <p>We here at InternWell provide various internship programmes wherein interns get a chance to work on a number of live projects.
+                                <p style={{fontSize: "13px"}}>We here at InternWell provide various internship programmes wherein interns get a chance to work on a number of live projects.
                                     Being a part of live projects will serve as a medium for getting exposed to real
                                     life challenges in this competitive world. We have a dedicated team of experts
                                     at InternWell who mentor and work tirelessly to guide the interns while working
@@ -301,9 +301,6 @@ const Home = () => {
                             <div className="section-title">
                                 <span className="title-bg">Clients</span>
                                 <h1>Our Partners</h1>
-                                <p>Sed lorem enim, faucibus at erat eget, laoreet tincidunt tortor.
-                                    Ut sed mi nec ligula bibendum aliquam. Sed scelerisque maximus magna,
-                                    a vehicula turpis Proin</p>
                             </div>
                         </div>
                     </div>
@@ -395,8 +392,6 @@ const Home = () => {
                     <div className="section-title">
                         <span className="title-bg">Testimonial</span>
                         <h1>Our Clients</h1>
-                        <p>Sed lorem enim, faucibus at erat eget, laoreet tincidunt tortor.
-                            Ut sed mi nec ligula bibendum aliquam. S</p>
                     </div>
                 </div>
                 <Testimonial />
