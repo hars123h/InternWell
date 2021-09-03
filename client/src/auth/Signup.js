@@ -77,9 +77,11 @@ const Signup = () => {
                 {/* <Link to="/auth/password/forgot" className="btn btn-sm btn-outline-danger">
                     Forgot Password
                 </Link> */}
+                
                 <Link to = "/signin">
-                    Signin
+                <h6>Already have an account ? </h6>
                 </Link>
+                <br /> <br /> <br /> <br /> <br /> <br />
             </div>
         
     );
