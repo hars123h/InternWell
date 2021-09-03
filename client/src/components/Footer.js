@@ -58,19 +58,19 @@ const Footer = () => {
                     </div>
                    
                 </div>
-                {/* <div className="col-lg-3 col-md-6 col-12">
+                <div className="col-lg-3 col-md-6 col-12">
                     
                     <div className="single-widget newsletter">
                         <h2>Newsletter</h2>
                         <p>Subscribe to our Newsletter and get to hear more about us</p>
                         <form>
-                            <input placeholder="Your Name" type="text">
-                            <input placeholder="your email" type="email">
+                            {/* <input placeholder="Your Name" type="text" /> */}
+                            <input placeholder="your email" type="email" />
                             <button type="submit" className="button primary">Subscribe Now!</button>
                         </form>	
                     </div>
                    
-                </div> */}
+                </div>
             </div>
         </div>
     </div>

@@ -748,12 +748,12 @@
 }
 .partners .single-partner {
 	padding: 20px;
-	border: 1px solid #eee;
+	/* border: 1px solid #eee; */
 	margin: 0 -1px -1px 0;
 	text-align: center;
 }
 .partners .single-partner img {
-	opacity: 0.5;
+	/* opacity: 0.5; */
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	transition: all 0.3s ease;

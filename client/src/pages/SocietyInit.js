@@ -36,16 +36,16 @@ const SocietyInit = () => {
                 </div>
                 <br /><br />
                 <div className="row">
-					<div className="col-lg-4 col-md-6 col-12">
+					<div className="col-lg-3 col-md-6 col-12">
 						{/* <!-- Single Service --> */}
 						<div className="single-service mb-5">
-							<i className="fa fa-magic"></i>
+						<i className="fa fa-rupee"></i>
 							<h2><a href="/service">Fund Raisers</a></h2>
 							<p>InternWell orgainsation always steps forward for helping the needy ones to raise funds who themselves cannot arrange that much money and are in urgent need of money but cannot reach out to those people </p>
 						</div>
 						{/* <!-- End Single Service --> */}
 					</div>
-					<div className="col-lg-4 col-md-6 col-12">
+					<div className="col-lg-3 col-md-6 col-12">
 						{/* <!-- Single Service --> */}
 						<div className="single-service mb-5">
 							<i className="fa fa-magic"></i>
@@ -54,7 +54,7 @@ const SocietyInit = () => {
 						</div>
 						{/* <!-- End Single Service --> */}
 					</div>
-					<div className="col-lg-4 col-md-6 col-12">
+					<div className="col-lg-3 col-md-6 col-12">
 						{/* <!-- Single Service --> */}
 						<div className="single-service mb-5">
 							<i className="fa fa-magic"></i>
@@ -63,7 +63,7 @@ const SocietyInit = () => {
 						</div>
 						{/* <!-- End Single Service --> */}
 					</div>
-					<div className="col-lg-4 col-md-6 col-12">
+					<div className="col-lg-3 col-md-6 col-12">
 						{/* <!-- Single Service --> */}
 						<div className="single-service mb-5">
 							<i className="fa fa-magic "></i>
