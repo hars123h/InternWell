@@ -1,3 +1,4 @@
+import Client from '../components/OurClient/Client'
 import Testimonial from "../components/Testimonial/Testimonial"
 
 const Home = () => {
@@ -294,97 +295,7 @@ const Home = () => {
             {/* <!--/ End Services -->
 
         <!-- Partners --> */}
-            <section id="partners" className="partners section">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12 ">
-                            <div className="section-title">
-                                <span className="title-bg">Clients</span>
-                                <h1>Our Partners</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="partners-inner">
-                                <div className="row no-gutters">
-                                    {/* <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-1.png" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner -->
-                                <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-2.png" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner -->
-                                <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-3.jpg" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner -->
-                                <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-4.png" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner -->
-                                <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-5.png" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner -->
-                                <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-6.png" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner -->
-                                <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-7.png" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner -->
-                                <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-8.png" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner -->
-                                <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-9.png" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner -->
-                                <!-- Single Partner --> */}
-                                    <div className="col-lg-2 col-md-3 col-12">
-                                        <div className="single-partner">
-                                            <a href="#/" target="_blank"><img src="../images/partner-10.png" alt="#" /></a>
-                                        </div>
-                                    </div>
-                                    {/* <!--/ End Single Partner -->
-                                <!-- Single Partner --> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+           <Client />
             {/* <!--/ End Partners --></div> */}
 
             <section className="section">

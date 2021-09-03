@@ -14,7 +14,7 @@ const Navigation = ({ children, history, match }) => {
 						<div className="row">
 							<div className="col-lg-2 col-12">
 								<div className="logo">
-									<NavLink to="/"><img src="../../images/internlogo.png" style={{ width: "100px" }} alt="logo" /></NavLink>
+									<a href="/"><img src="../../images/internlogo.png" style={{ width: "100px" }} alt="logo" /></a>
 								</div>
 								<div className="link"><NavLink to="/"><img src="../../images/internlogo.png" style={{ width: "100px" }} alt="logo" /></NavLink></div>
 								<button className="mobile-arrow"><i className="fa fa-bars"></i></button>
@@ -24,7 +24,7 @@ const Navigation = ({ children, history, match }) => {
 								<div className="mainmenu">
 									<nav className="navigation">
 										<ul className="nav menu">
-											<li className="active"><NavLink to="/">Home</NavLink></li>
+											<li className="active"><a href ="/">Home</a></li>
 											<li><a>Pages<i className="fa fa-caret-down"></i></a>
 												<ul className="dropdown">
 													<li><Link to="/about">About Us</Link></li>

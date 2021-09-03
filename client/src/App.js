@@ -19,6 +19,7 @@ import AdminRoute from './auth/AdminRoute';
 import Forgot from './auth/Forgot';
 import Reset from './auth/Reset';
 import Contact from './pages/Contact';
+import NewTeam from './pages/NewTeam';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Switch>
           
           <Route path="/" component={Home} exact></Route>
+          <Route path="/newTeam" exact component={NewTeam} />
           <Route path="/about" component={About}></Route>
           <Route path="/services" component={Service}></Route>
           <Route path="/team" component={Team}></Route>
