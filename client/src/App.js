@@ -20,6 +20,7 @@ import Forgot from './auth/Forgot';
 import Reset from './auth/Reset';
 import Contact from './pages/Contact';
 import NewTeam from './pages/NewTeam';
+import InternForm from './pages/InternForm'
 import NewService from './components/NewService/NewService';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/" component={Home} exact></Route>
           <Route path="/newService" component={NewService} exact></Route>
           <Route path="/newTeam" exact component={NewTeam} />
+          <Route path="/internForm" exact component={InternForm} />
           <Route path="/about" component={About}></Route>
           <Route path="/services" component={Service}></Route>
           <Route path="/team" component={Team}></Route>

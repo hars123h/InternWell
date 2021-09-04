@@ -35,6 +35,22 @@ const Service = () => {
 							</div>
 						</div>
 					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="our-team">
+                            <div class="picture">
+                                <img class="img-fluid" src="https://thumbs.dreamstime.com/b/web-development-vector-icon-symbol-creative-sign-seo-icons-collection-filled-flat-illustration-computer-mobile-logo-155906362.jpg" />
+                            </div>
+                            <div class="team-content">
+                                <h3 class="name">Business Consulting</h3>
+                                
+                                <p style={{padding: '15px'}}>In the current scenario, business and startus culture are growing rapidly especially
+							 in India and thats why we have bring this consulting service
+							 in which we will help people with their business development and other 
+							 things related to grow their market value"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 					<div className="row">
 						<ServiceComponent
 							ServiceTitle="Business Consulting"

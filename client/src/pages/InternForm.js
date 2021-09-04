@@ -1,18 +1,36 @@
 import React from 'react'
+import { ToastContainer } from 'react-toastify'
 
 const InternForm = () => {
+
+const handleChange = () => {
+    
+}
+
+const message = () => {
+
+}
+
+const clickSubmit = () => {
+
+}
+
+const buttonText = () => {
+
+}
+
     const SendDetailForm = () => (
         <form>
             <div className="row">
                 <div className="col-lg-6 col-12">
                     <div className="form-group">
-                        <textarea onChange={handleChange('')} type="text" value={} placeholder="Why should we hire you?" required="required" />
+                        <textarea onChange={handleChange('')} type="text" value={""} placeholder="Why should we hire you?" required="required" />
                     </div>
                 </div>
 
                     <div className="col-lg-6 col-12">
                         <div className="form-group">
-                            <textarea onChange={handleChange('')} type="text" value={} placeholder="How did you hear about this opportunity ?" required="required" />
+                            <textarea onChange={handleChange('')} type="text" value={""} placeholder="How did you hear about this opportunity ?" required="required" />
                         </div>
                     </div>
 
