@@ -20,6 +20,7 @@ import Forgot from './auth/Forgot';
 import Reset from './auth/Reset';
 import Contact from './pages/Contact';
 import NewTeam from './pages/NewTeam';
+import InternForm from './pages/InternForm'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           
           <Route path="/" component={Home} exact></Route>
           <Route path="/newTeam" exact component={NewTeam} />
+          <Route path="/internForm" exact component={InternForm} />
           <Route path="/about" component={About}></Route>
           <Route path="/services" component={Service}></Route>
           <Route path="/team" component={Team}></Route>

@@ -1,4 +1,5 @@
 import React from 'react'
+import NewTeam from './NewTeam';
 
 const Team = () => {
 	return (
@@ -103,98 +104,8 @@ const Team = () => {
 						</div>
 					</div>
 				</div>
-				<div className="team-area">
-					<div className="container">
-						<div className="row">
-							<div className=" col-lg-4 col-10  mx-auto ">
-								{/* <!-- Single Team --> */}
-								<div className="single-team">
-									{/* <!-- Team Head --> */}
-									<div className="img-area">
-										<img src="../images/aman.jpg" className="img-responsive" alt="#" />
-										<div className="social">
-											<ul className="list-inline">
-												<li><a href="https://www.linkedin.com/in/aman-chopra-375a81171/"><i className="fa fa-linkedin"></i></a></li>
-												<li><a href="https://www.github.com/Aman1905"><i className="fa fa-github"></i></a></li>
-												<li><a href="https://twitter.com/iam_chopra_aman"><i className="fa fa-twitter"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<div className="img-text">
-										<h4>Aman Chopra</h4>
-										<p>MERN Developer</p>
-									</div>
-								</div>
-							</div>
-
-
-							<div className=" col-lg-4 col-10  mx-auto ">
-								{/* <!-- Single Team --> */}
-								<div className="single-team">
-									{/* <!-- Team Head --> */}
-									<div className="img-area">
-										<img src="../images/harsh.jpeg" className="img-responsive" alt="#" />
-										<div className="social">
-											<ul className="list-inline">
-												<li><a href="https://www.linkedin.com/in/tripathi-harsh/">
-													<i className="fa fa-linkedin"></i>
-												</a></li>
-												<li><a href="https://github.com/hars123h">
-													<i className="fa fa-github"></i>
-												</a></li>
-												<li><a href="https://www.upwork.com/freelancers/~0125e41c3bf16e2b53?viewMode=1">
-													<i className="fa fa-briefcase"></i>
-												</a></li>
-											</ul>
-										</div>
-									</div>
-									<div className="img-text">
-										<h4>Harsh Tripathi</h4>
-										<p>MERN Developer</p>
-									</div>
-									{/* <!-- Team Bottom --> */}
-
-									{/* <!--/ End Team Bottom --> */}
-								</div>
-								{/* <!-- End Single Team --> */}
-							</div>
-
-							<div className=" col-lg-4 col-10  mx-auto ">
-								{/* <!-- Single Team --> */}
-								<div className="single-team">
-									{/* <!-- Team Head --> */}
-									<div className="img-area">
-										<img src="../images/vaibhav.jpeg" className="img-responsive" alt="#" />
-										<div className="social">
-											<ul className="list-inline">
-												<li><a href=" https://www.linkedin.com/in/vaibhav-bhardwaj2000">
-													<i className="fa fa-linkedin"></i>
-												</a></li>
-												<li><a href="https://www.instagram.com/__vaibhav.bhardwaj__/">
-													<i className="fa fa-instagram"></i>
-												</a></li>
-												<li><a href="https://twitter.com/Vaibhav_2000_?s=08">
-													<i className="fa fa-twitter"></i>
-												</a></li>
-											</ul>
-										</div>
-									</div>
-									<div className="img-text">
-										<h4>Vaibhav Bhardwaj</h4>
-										<p>Frontend Developer</p>
-									</div>
-									{/* <!-- Team Bottom --> */}
-
-									{/* <!--/ End Team Bottom --> */}
-								</div>
-								{/* <!-- End Single Team --> */}
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-			</section>
+				<NewTeam />
+				</section>
 			{/* developers team ending */}
 		</>
 	)
