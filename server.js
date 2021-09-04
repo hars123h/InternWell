@@ -22,8 +22,10 @@ mongoose
     .catch(err => console.log('DB CONNECTION ERROR: ', err));
 
 //import Routes
+const nLetterRoutes = require("./routes/newsLetter");
 const authRoutes = require("./routes/auth");
 const userRoutes = require("./routes/user");
+
 //app middlewares
 app.use(morgan('dev'));
 app.use(bodyParser.json());
@@ -37,8 +39,10 @@ app.use(cors()); //allows all origins
 
 
 // Middlewares
+app.use('/api', nLetterRoutes);
 app.use('/api', authRoutes);
 app.use('/api', userRoutes);
+
 
 // if(process.env.NODE_ENV == "production") {
 //     const path=require("path");
@@ -63,14 +67,14 @@ app.use('/api', userRoutes);
 
 
 
-if (process.env.NODE_ENV === 'production') {
-    const root = require('path').join(__dirname, 'client', 'build')
-    app.use(express.static(root));
-    console.log(root);
-    app.get("*", (req, res) => {
-    res.sendFile('index.html', { root });
-})
-} 
+// if (process.env.NODE_ENV === 'production') {
+//     const root = require('path').join(__dirname, 'client', 'build')
+//     app.use(express.static(root));
+//     console.log(root);
+//     app.get("*", (req, res) => {
+//     res.sendFile('index.html', { root });
+// })
+// } 
 
 const port = process.env.PORT || 8000;
 app.listen(port, () => {

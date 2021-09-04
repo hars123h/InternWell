@@ -48,7 +48,7 @@ const Signin = ({ history }) => {
                 setValues({ ...values, buttonText: 'Submit' });
                 toast.error(error.response.data.error);
             });
-    };
+    }; 
 
     const signinForm = () => (
         <form>
