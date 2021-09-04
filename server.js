@@ -67,14 +67,14 @@ app.use('/api', userRoutes);
 
 
 
-// if (process.env.NODE_ENV === 'production') {
-//     const root = require('path').join(__dirname, 'client', 'build')
-//     app.use(express.static(root));
-//     console.log(root);
-//     app.get("*", (req, res) => {
-//     res.sendFile('index.html', { root });
-// })
-// } 
+if (process.env.NODE_ENV === 'production') {
+    const root = require('path').join(__dirname, 'client', 'build')
+    app.use(express.static(root));
+    console.log(root);
+    app.get("*", (req, res) => {
+    res.sendFile('index.html', { root });
+})
+} 
 
 const port = process.env.PORT || 8000;
 app.listen(port, () => {
