@@ -35,24 +35,9 @@ const Service = () => {
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="our-team">
-                            <div class="picture">
-                                <img class="img-fluid" src="https://thumbs.dreamstime.com/b/web-development-vector-icon-symbol-creative-sign-seo-icons-collection-filled-flat-illustration-computer-mobile-logo-155906362.jpg" />
-                            </div>
-                            <div class="team-content">
-                                <h3 class="name">Business Consulting</h3>
-                                
-                                <p style={{padding: '15px'}}>In the current scenario, business and startus culture are growing rapidly especially
-							 in India and thats why we have bring this consulting service
-							 in which we will help people with their business development and other 
-							 things related to grow their market value"
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 					<div className="row">
 						<ServiceComponent
+						ServiceImage="./images/slider/gallery-image2.jpg" 
 							ServiceTitle="Business Consulting"
 							ServicePara="In the current scenario, business and startus culture are growing rapidly especially
 							 in India and thats why we have bring this consulting service
@@ -61,21 +46,23 @@ const Service = () => {
 						/>
 
                         <ServiceComponent
+						ServiceImage="./images/service3.jpg" 
 							ServiceTitle="Content Writing"
 							ServicePara="Content Writers are in huge demand across the nation. It is one of the fastest growing
 							roles in the modern industry’s scenario. The need of creative content is growing each day. 
 							Little knowledge 
 							of SEO and correct usage of language along with a hint of creativity goes a long way"
 						/>
-						<ServiceComponent 
+						<ServiceComponent
+							ServiceImage="./images/service1.jpeg" 
 							ServiceTitle="Web Development"
 							ServicePara="This is the area of our expertise. We have the best mentors available to make great user-friendly
 							 websites that will attract customers for your products. Through SEO optimisation we will make sure that 
-							 the website is displayed amongst the top ones of searches.
-							 InternWell also makes use of latest web development technologies like React to build dynamic websites"
+							 the website is displayed amongst the top ones of searches."
 						/>
 
 						<ServiceComponent 
+						ServiceImage="./images/service5.jpg" 
 							ServiceTitle ="Digital Marketing"
 							ServicePara="Our varied Digital Marketing services include Social Media Marketing, Content Marketing,
 							 Video Marketing and Online advertisements, etc.
@@ -83,6 +70,7 @@ const Service = () => {
 						/>
 						
 						<ServiceComponent 
+						ServiceImage="./images/service2.jpg" 
 							ServiceTitle="App Development"
 							ServicePara="We offer never before prices for cross platform app development for your enterprises.
 							 Apps can be used for a variety of purposes. The portability of Apps is helping enterprises track production stats
@@ -90,6 +78,7 @@ const Service = () => {
 							Apps offer widespread connectivity and can establish a direct bridge between the customer and the enterprise"
 						/>
 						<ServiceComponent 
+						ServiceImage="./images/service6.png" 
 							ServiceTitle="Social Media Marketing"
 							ServicePara="This is yet another in demand role now-a-days. Companies pay a lot to active social media managers who can creatively manage the social media platform of the company.
 							 Social Media is the biggest weapon for a company to advertise and increase its outreach. 
