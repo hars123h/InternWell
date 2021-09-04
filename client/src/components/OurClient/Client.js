@@ -56,12 +56,19 @@ const Client = () => {
                        src="../images/partner-9.png"
                        alt="client-9"
                    />
+                    <ClientComponent 
+                       src="../images/partner-10.png"
+                       alt="client-9"
+                   />
+                    <ClientComponent 
+                       src="../images/partner-11.png"
+                       alt="client-9"
+                   />
+                    <ClientComponent 
+                       src="../images/partner-12.png"
+                       alt="client-9"
+                   />
                     
-                    <div className="col-lg-2 col-md-3 col-12">
-                        <div className="single-partner">
-                            <a href="#/" target="_blank"><img src="../images/partner-10.png" alt="#" /></a>
-                        </div>
-                    </div>
                     {/* <!--/ End Single Partner -->
                 <!-- Single Partner --> */}
                 </div>
