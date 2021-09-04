@@ -25,7 +25,7 @@ const NewTeam = () => {
                     <div class="col-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="our-team">
                             <div class="picture">
-                                <img class="img-fluid" src="https://picsum.photos/130/130?image=839" />
+                                <img class="img-fluid" src="./images/harsh.jpeg" />
                             </div>
                             <div class="team-content">
                                 <h3 class="name">Harsh Tripathi</h3>
@@ -41,7 +41,7 @@ const NewTeam = () => {
                     <div class="col-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="our-team">
                             <div class="picture">
-                                <img class="img-fluid" src="https://picsum.photos/130/130?image=856" />
+                                <img class="img-fluid" src="./images/vaibhav.jpeg" />
                             </div>
                             <div class="team-content">
                                 <h3 class="name">Vaibhav Bhardwaj</h3>
