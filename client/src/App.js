@@ -20,6 +20,7 @@ import Forgot from './auth/Forgot';
 import Reset from './auth/Reset';
 import Contact from './pages/Contact';
 import NewTeam from './pages/NewTeam';
+import NewService from './components/NewService/NewService';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Switch>
           
           <Route path="/" component={Home} exact></Route>
+          <Route path="/newService" component={NewService} exact></Route>
           <Route path="/newTeam" exact component={NewTeam} />
           <Route path="/about" component={About}></Route>
           <Route path="/services" component={Service}></Route>
