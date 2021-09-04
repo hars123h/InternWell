@@ -28,9 +28,6 @@ const StudentInit = () => {
                         <div className="section-title">
                             <span className="title-bg">Students</span>
                             <h1>What we have done yet</h1>
-                            {/* <p>Sed lorem enim, faucibus at erat eget, laoreet tincidunt tortor.
-                             Ut sed mi nec ligula bibendum aliquam. Sed scelerisque maximus magna,
-                              a vehicula turpis Proin</p> */}
                         </div>
                     </div>
                 </div>
