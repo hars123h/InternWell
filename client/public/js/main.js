@@ -155,11 +155,11 @@
 		/*====================================
 			Nice Select JS
 		======================================*/	
-		$('select').niceSelect();
-		
-
+		// $('select').niceSelect();
 		
     });	
 		
 		
 })(jQuery);	
+
+var select = document.querySelector('select').niceSelect();

@@ -1020,6 +1020,22 @@ img-text h4 {
 	outline: none;
 	padding: 0 15px;
 }
+/* select:focus{
+	outline: none !important;
+	font-size: 15px !important;
+} */
+.form-control {
+
+	box-shadow: none !important;
+	
+}
+select{
+	font-size: 15px !important;
+}
+.select_style option{
+	
+	font-size: 15px !important;
+}
 .contact-us .form-group .nice-select {
 	padding-top: 8px;
 	margin-bottom: 25px;
