@@ -130,7 +130,7 @@ const Home = () => {
                         <div className="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.8s">
                             {/* <!-- About Content --> */}
                             <div className="about-content">
-                                <h2>A world className platform for the young undergrads to scale up their skills & potentials !!</h2>
+                                <h2 style={{color: "#000"}}>A world className platform for the young undergrads to scale up their skills & potentials !!</h2>
                                 <p style={{fontSize: "13px"}}>Internships are a great way to showcase skillset to employers. They provide with experience of how the industry works & functions. Working on a live project provides a cutting edge over the competitors as it adds up as a bonus to the resume. We here at InternWell provide interns with hands-on experience on the projects that we take up from SMEs under the mentorship of experts from our team.</p>
                                 <p style={{fontSize: "13px"}}>Based on the performance, the interns might also receive some stipend. We require the interns to have some basic know-how of the desired work before applying for, as the interns will get to worl real-life projects that we obtain from an enterprises. Furthermore, we have a dedicated team of experts who mentor and guide the interns working on the live projects. Our team members make sure that the projects are carved with perfection and delivered before the deadline.</p>
 

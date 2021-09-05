@@ -108,7 +108,7 @@ const Contact = () => {
                                         <div className="col-lg-8 col-12">
                                             <div className="form-main">
                                                 <div className="text-content">
-                                                    <h2>Send Message Us</h2>
+                                                    <h2 style={{color: "#000"}}>Send Message Us</h2>
                                                 </div>
                                                 {ContactForm()}
                                             </div>

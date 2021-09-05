@@ -15,33 +15,30 @@ const clickSubmit = () => {
 
 }
 
-const buttonText = () => {
-
-}
 
     const SendDetailForm = () => (
         <form>
             <div className="row">
-                <div className="col-lg-6 col-12">
+                <div className="col-lg-12 col-12">
                     <div className="form-group">
                         <textarea onChange={handleChange('')} type="text" value={""} placeholder="Why should we hire you?" required="required" />
                     </div>
                 </div>
 
-                    <div className="col-lg-6 col-12">
+                    <div className="col-lg-12 col-12">
                         <div className="form-group">
                             <textarea onChange={handleChange('')} type="text" value={""} placeholder="How did you hear about this opportunity ?" required="required" />
                         </div>
                     </div>
 
-                    <div class="col-12">
-						<div class="form-group">
+                    <div className="col-12">
+						<div className="form-group">
 							<select name="subject">
-							<option class="option" value="1">Web Development</option>
-							<option class="option" value="2">Digital Marketing</option>
-							<option class="option" value="3">Social Media Marketing</option>
-							<option class="option" value="4">App Development</option>
-						    <option class="option" value="5">Content Writer</option>
+							<option className="option" value="1">Web Development</option>
+							<option className="option" value="2">Digital Marketing</option>
+							<option className="option" value="3">Social Media Marketing</option>
+							<option className="option" value="4">App Development</option>
+						    <option className="option" value="5">Content Writer</option>
 							</select>
 						</div>
 					</div>
@@ -52,21 +49,21 @@ const buttonText = () => {
                             </div>
                         </div>
 
-                        <div class="col-lg-12 col-12">
-							<div class="form-group">
+                        <div className="col-lg-12 col-12">
+							<div className="form-group">
 							<input type="url" placeholder="Your LinkedIn Profile" required="required" />
 							</div>
 						</div>
 
-						<div class="col-lg-12 col-12">
-							<div class="form-group">
+						<div className="col-lg-12 col-12">
+							<div className="form-group">
 							<input type="url" placeholder="Your Resume (optional)" />
 							</div>
 						</div>
                         
-                        <div className="col-lg-12 col-12">
+                        <div className="col-lg-3 col-12">
                             <div className="form-group button">
-                                <button onClick={clickSubmit} className="btn primary">{buttonText}</button>
+                                <button onClick={clickSubmit} className="btn primary">Send</button>
                             </div>
                         </div>
                     </div>
@@ -108,10 +105,10 @@ const buttonText = () => {
                                 <div className="contact-main">
                                     <div className="row">
                                         {/* <!-- Contact Form --> */}
-                                        <div className="col-lg-8 col-12">
+                                        <div className="col-lg-12 col-12">
                                             <div className="form-main">
                                                 <div className="text-content">
-                                                    <h2>Send Us your Details</h2>
+                                                    <h2 style={{color: "#000"}}>Send Us your Details</h2>
                                                 </div>
                                                 {SendDetailForm()}
                                             </div>
