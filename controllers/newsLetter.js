@@ -12,7 +12,7 @@ exports.newsLeterForm = (req, res) => {
             } = req.body;
 
             const newsLetter = new NewsLetter({
-              email
+                email
             });
 
             newsLetter.save((error, data) => {
@@ -29,6 +29,6 @@ exports.newsLeterForm = (req, res) => {
             })
 
         })
-   
+
 
 }

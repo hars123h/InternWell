@@ -4,26 +4,7 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 const InternForm = () => {
-<<<<<<< Updated upstream
 
-const handleChange = () => {
-    
-}
-
-const message = () => {
-
-}
-
-const clickSubmit = () => {
-
-}
-
-
-    const SendDetailForm = () => (
-        <form>
-            <div className="row">
-                <div className="col-lg-12 col-12">
-=======
     const [values, setValues] = useState({
         name: '',
         email: '',
@@ -78,38 +59,21 @@ const clickSubmit = () => {
                     </div>
                 </div>
                 <div className="col-lg-6 col-12">
->>>>>>> Stashed changes
+
                     <div className="form-group">
                         <textarea onChange={handleChange('hire')} type="text" value={hire} placeholder="Why should we hire you?" required="required" />
                     </div>
                 </div>
 
-<<<<<<< Updated upstream
-                    <div className="col-lg-12 col-12">
-                        <div className="form-group">
-                            <textarea onChange={handleChange('')} type="text" value={""} placeholder="How did you hear about this opportunity ?" required="required" />
-                        </div>
-=======
+
                 <div className="col-lg-6 col-12">
                     <div className="form-group">
                         <textarea onChange={handleChange('hear')} type="text" value={hear} placeholder="How did you hear about this opportunity ?" required="required" />
->>>>>>> Stashed changes
+
                     </div>
                 </div>
 
-<<<<<<< Updated upstream
-                    <div className="col-12">
-						<div className="form-group">
-							<select name="subject">
-							<option className="option" value="1">Web Development</option>
-							<option className="option" value="2">Digital Marketing</option>
-							<option className="option" value="3">Social Media Marketing</option>
-							<option className="option" value="4">App Development</option>
-						    <option className="option" value="5">Content Writer</option>
-							</select>
-						</div>
-					</div>
-=======
+
                 <div class="col-12">
                     <div class="form-group">
                         <select className="form-control form-control-lg select_style "
@@ -117,15 +81,15 @@ const clickSubmit = () => {
                          
                            >
                             <option value="none">Select The Course</option>
-                            <option value="1">Web Development</option>
-                            <option value="2">Digital Marketing</option>
-                            <option value="3">Social Media Marketing</option>
-                            <option value="4">App Development</option>
-                            <option value="5">Content Writer</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="Digital Marketing">Digital Marketing</option>
+                            <option value="Social Media Marketing">Social Media Marketing</option>
+                            <option value="App Development">App Development</option>
+                            <option value="Content Writer">Content Writer</option>
                         </select>
                     </div>
                 </div>
->>>>>>> Stashed changes
+
 
                 <div className="col-lg-12 col-12">
                     <div className="form-group">
@@ -133,25 +97,7 @@ const clickSubmit = () => {
                     </div>
                 </div>
 
-<<<<<<< Updated upstream
-                        <div className="col-lg-12 col-12">
-							<div className="form-group">
-							<input type="url" placeholder="Your LinkedIn Profile" required="required" />
-							</div>
-						</div>
 
-						<div className="col-lg-12 col-12">
-							<div className="form-group">
-							<input type="url" placeholder="Your Resume (optional)" />
-							</div>
-						</div>
-                        
-                        <div className="col-lg-3 col-12">
-                            <div className="form-group button">
-                                <button onClick={clickSubmit} className="btn primary">Send</button>
-                            </div>
-                        </div>
-=======
                 <div class="col-lg-12 col-12">
                     <div class="form-group">
                         <input onChange={handleChange('linkedIn')}  value={linkedIn}  type="text" placeholder="Your LinkedIn Profile" required="required" />
@@ -161,7 +107,7 @@ const clickSubmit = () => {
                 <div class="col-lg-12 col-12">
                     <div class="form-group">
                         <input onChange={handleChange('resume')}  value={resume}  type="text" placeholder="Your Resume (optional)" />
->>>>>>> Stashed changes
+
                     </div>
                 </div>
 
@@ -203,7 +149,7 @@ const clickSubmit = () => {
                                     the projects alongside InternWell's team.</p>
                             </div>
                         </div>
-<<<<<<< Updated upstream
+
                         <div className="row">
                             <div className="col-12">
                                 <div className="contact-main">
@@ -215,20 +161,10 @@ const clickSubmit = () => {
                                                     <h2 style={{color: "#000"}}>Send Us your Details</h2>
                                                 </div>
                                                 {SendDetailForm()}
-=======
-                    </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="contact-main">
-                                <div className="row">
-                                    {/* <!-- Contact Form --> */}
-                                    <div className="col-12">
-                                        <div className="form-main">
-                                            <div className="text-content">
-                                                <h2>Send Us your Details</h2>
->>>>>>> Stashed changes
+
+                    
                                             </div>
-                                            {SendDetailForm()}
+                                           
                                         </div>
                                     </div>
                                     {/* <!--/ End Contact Form --> */}

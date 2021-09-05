@@ -25,6 +25,7 @@ mongoose
 const nLetterRoutes = require("./routes/newsLetter");
 const authRoutes = require("./routes/auth");
 const userRoutes = require("./routes/user");
+const internRoutes = require("./routes/InternForm");
 
 //app middlewares
 app.use(morgan('dev'));
@@ -42,6 +43,7 @@ app.use(cors()); //allows all origins
 app.use('/api', nLetterRoutes);
 app.use('/api', authRoutes);
 app.use('/api', userRoutes);
+app.use('/api', internRoutes);
 
 
 // if(process.env.NODE_ENV == "production") {
