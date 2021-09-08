@@ -37,8 +37,9 @@ const SocietyInit = () => {
                 </div>
                 <br /><br />
 				
-                <NewSocityInit />
+               
 			</div>
+            <NewSocityInit />
         </section>
         {/* <!--/ End Society Initiatives --> */}
         </>
