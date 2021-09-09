@@ -41,7 +41,7 @@ const Navigation = ({ children, history, match }) => {
 												</ul>
 											</li>
 											<li><Link to="/contact">Contact</Link></li>
-											<li><Link to="/internForm">Intrn</Link></li>
+											{/* <li><Link to="/internForm">Intrn</Link></li> */}
 											{!isAuth() && (
 												<Fragment>
 													{/* <li className="nav-item">

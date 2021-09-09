@@ -48,17 +48,17 @@ const InternForm = () => {
     const SendDetailForm = () => (
         <form>
             <div className="row">
-            <div class="col-lg-6 col-12">
-                    <div class="form-group">
+            <div className="col-lg-6 col-12">
+                    <div className="form-group">
                         <input onChange={handleChange('name')} type="text" value={name} placeholder="Your Name" />
                     </div>
                 </div>
-                <div class="col-lg-6 col-12">
-                    <div class="form-group">
+                <div className="col-lg-6 col-12">
+                    <div className="form-group">
                         <input  onChange={handleChange('email')} value={email} type="email" placeholder="Your Email" />
                     </div>
                 </div>
-                <div className="col-lg-6 col-12">
+                <div className="col-lg-12 col-12">
 
                     <div className="form-group">
                         <textarea onChange={handleChange('hire')} type="text" value={hire} placeholder="Why should we hire you?" required="required" />
@@ -66,7 +66,7 @@ const InternForm = () => {
                 </div>
 
 
-                <div className="col-lg-6 col-12">
+                <div className="col-lg-12 col-12">
                     <div className="form-group">
                         <textarea onChange={handleChange('hear')} type="text" value={hear} placeholder="How did you hear about this opportunity ?" required="required" />
 
@@ -74,8 +74,8 @@ const InternForm = () => {
                 </div>
 
 
-                <div class="col-12">
-                    <div class="form-group">
+                <div className="col-12">
+                    <div className="form-group">
                         <select className="form-control form-control-lg select_style "
                          value={course} name="course" id="course" onChange={handleChange('course')}
                          
@@ -98,14 +98,14 @@ const InternForm = () => {
                 </div>
 
 
-                <div class="col-lg-12 col-12">
-                    <div class="form-group">
+                <div className="col-lg-12 col-12">
+                    <div className="form-group">
                         <input onChange={handleChange('linkedIn')}  value={linkedIn}  type="text" placeholder="Your LinkedIn Profile" required="required" />
                     </div>
                 </div>
 
-                <div class="col-lg-12 col-12">
-                    <div class="form-group">
+                <div className="col-lg-12 col-12">
+                    <div className="form-group">
                         <input onChange={handleChange('resume')}  value={resume}  type="text" placeholder="Your Resume (optional)" />
 
                     </div>
