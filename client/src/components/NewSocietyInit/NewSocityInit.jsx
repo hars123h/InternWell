@@ -6,7 +6,7 @@ const NewSocityInit = () => {
         <div className="student">
         <div className="contain">
             <div className="box">
-                <h2>1</h2>
+                <h2><img src="./images/icon2.png" alt="icon" /> </h2>
                 <h3>Fund Raisers</h3>
                 <p>
                 InternWell orgainsation always steps forward for helping the needy ones to raise funds who themselves cannot arrange that much money and are in urgent need of money but cannot reach out to those people
@@ -14,7 +14,7 @@ const NewSocityInit = () => {
             </div>
 
             <div className="box">
-                <h2>2</h2>
+                <h2><img src="./images/icon1.png" alt="icon" /></h2>
                 <h3> COVID Volunteers</h3>
                 <p>
                 During this COVID-19 Pandemic, InternWell orgainsation has tried its best to reach out the needy ones, organising social camps, reaching out to doctors and hospitals, helping various patients also in arranging beds and other equipments.
@@ -22,7 +22,7 @@ const NewSocityInit = () => {
             </div>
 
             <div className="box">
-                <h2>3</h2>
+                <h2><img src="./images/icon3.png" alt="icon" /></h2>
                 <h3>Donations</h3>
                 
                 <p>
@@ -31,7 +31,7 @@ const NewSocityInit = () => {
             </div>
 
             <div className="box">
-                <h2>4</h2>
+                <h2><img src="./images/icon4.png" alt="icon" /></h2>
                 <h3>Vaccine Volunteers</h3>
                 <p>
                 InternWell orgainsation has also played a major role as a Vaccine Volunteer by guiding people at Vaccination sites, helps clinical team and administration in managing the patients and other stuff.
