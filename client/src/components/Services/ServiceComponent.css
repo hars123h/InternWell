@@ -1,12 +1,13 @@
 .card-area{
     background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
 }
-.card{
+
+.service-main .card{
     width: 20rem;
     border-radius: 20px;
 }
 
-.card:hover{
+.service-main .card:hover{
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
 }
 
@@ -42,7 +43,7 @@
 } */
 
 @media only screen and (max-width: 1200px) {
-    .card{
+    .service-main  .card{
         width: auto;
     }
 }

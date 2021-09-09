@@ -113,7 +113,7 @@ const InternForm = () => {
 
                 <div className="col-lg-12 col-12">
                     <div className="form-group button">
-                        <button onClick={clickSubmit} className="btn primary">{buttonText}</button>
+                        <button onClick={clickSubmit} className="btn primary py-2"style={{color: "#fff"}} >{buttonText}</button>
                     </div>
                 </div>
             </div>

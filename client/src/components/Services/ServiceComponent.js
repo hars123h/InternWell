@@ -9,7 +9,7 @@ const ServiceComponent = ({
 }) => {
     return (
         <>
-            <div className="col-lg-4 col-md-6 col-12 mt-4">
+            <div className="col-lg-4 col-md-6 col-12 mt-4 service-main">
                 <div className="card text-center shadow">
                     <div className="overflow">
                         <img src={ServiceImage} className="card-img-top" alt="" />

@@ -12,6 +12,7 @@ const Private = ({ history }) => {
         name: '',
         email: '',
         password: '',
+        address: '',
         buttonText: 'Submit'
     });
     const token = getCookie('token');
@@ -30,8 +31,8 @@ const Private = ({ history }) => {
         })
             .then(response => {
                 console.log('PRIVATE PROFILE UPDATE', response);
-                const { role, name, email } = response.data;
-                setValues({ ...values, role, name, email });
+                const { role, name, email, address } = response.data;
+                setValues({ ...values, role, name, email, address });
             })
             .catch(error => {
                 console.log('PRIVATE PROFILE UPDATE ERROR', error.response.data.error);
@@ -43,7 +44,7 @@ const Private = ({ history }) => {
             });
     };
 
-    const { role, name, email, password, buttonText } = values;
+    const { role, name, email, password, address, buttonText } = values;
 
     const handleChange = name => event => {
         // console.log(event.target.value);
@@ -60,7 +61,7 @@ const Private = ({ history }) => {
             headers: {
                 Authorization: `Bearer ${token}`
             },
-            data: { name, password },
+            data: { name, password, address },
         })
             .then(response => {
                 console.log('PRIVATE PROFILE UPDATE SUCCESS', response);
@@ -89,9 +90,16 @@ const Private = ({ history }) => {
             </div>
 
             <div className="form-group">
+                <label className="text-muted">Address</label>
+                <input onChange={handleChange('address')} value={address} type="text" className="form-control" />
+            </div>
+
+            <div className="form-group">
                 <label className="text-muted">Email</label>
                 <input defaultValue={email} type="email" className="form-control" disabled />
             </div>
+
+            
 
             <div className="form-group">
                 <label className="text-muted">Password</label>

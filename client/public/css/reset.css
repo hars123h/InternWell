@@ -119,7 +119,7 @@ ul li {
 .section-title h1 span{
 	margin-right:5px;
 }
-.btn {
+/* .btn {
 	display: inline-block;
 	color: #fff;
 	padding: 13px 34px;
@@ -136,7 +136,7 @@ ul li {
 	-webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-}
+} */
 input,
 input:focus,
 input:active {
