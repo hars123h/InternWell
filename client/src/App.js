@@ -23,6 +23,7 @@ import NewTeam from './pages/NewTeam';
 import InternForm from './pages/InternForm'
 import NewService from './components/NewService/NewService';
 import Blogs from './pages/Blogs'
+import PrivateProfile from './core/PrivateProfile';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
           <AdminRoute path="/admin" exact component={Admin} />
           <Route path="/auth/password/forgot" exact component={Forgot} />
           <Route path="/auth/password/reset/:token" exact component={Reset} />
+          <Route path="/privateProfile" exact component={PrivateProfile} />
 
 
         </Switch>

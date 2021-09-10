@@ -36,7 +36,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 // };
 
 exports.signup = (req, res) => {
-    const { name, email, password } = req.body;
+    const { name, email, password, mobile, address, gender, collegeName, gitHub, linkedIn, resume  } = req.body;
 
     User.findOne({ email }).exec((err, user) => {
         if (user) {
@@ -45,7 +45,7 @@ exports.signup = (req, res) => {
             });
         }
 
-        const token = jwt.sign({ name, email, password }, process.env.JWT_ACCOUNT_ACTIVATION, { expiresIn: '10m' });
+        const token = jwt.sign({ name, email, password, mobile, address, gender, collegeName, gitHub, linkedIn, resume  }, process.env.JWT_ACCOUNT_ACTIVATION, { expiresIn: '10m' });
 
         const emailData = {
             from: process.env.EMAIL_FROM,
@@ -89,9 +89,9 @@ exports.accountActivation = (req, res) => {
                 });
             }
 
-            const { name, email, password } = jwt.decode(token);
+            const { name, email, password, mobile, address, gender, collegeName, gitHub, linkedIn, resume  } = jwt.decode(token);
 
-            const user = new User({ name, email, password });
+            const user = new User({ name, email, password, mobile, address, gender, collegeName, gitHub, linkedIn, resume  });
 
             user.save((err, user) => {
                 if (err) {
@@ -129,11 +129,11 @@ exports.signin = (req, res) => {
         }
         // generate a token and send to client
         const token = jwt.sign({ _id: user._id }, process.env.JWT_SECRET, { expiresIn: '7d' });
-        const { _id, name, email, role } = user;
+        const { _id, name, email, mobile, address, gender, collegeName, gitHub, linkedIn, resume  } = user;
 
         return res.json({
             token,
-            user: { _id, name, email, role }
+            user: { _id, name, email, mobile, address, gender, collegeName, gitHub, linkedIn, resume  }
         });
     });
 };

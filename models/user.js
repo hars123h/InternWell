@@ -16,6 +16,32 @@ const userSchema = new mongoose.Schema(
             unique: true,
             lowercase: true
         },
+        address: {
+            type: String,
+        },
+        mobile: {
+            type: String,
+        },
+        collegeName: {
+            type: String,
+        },
+
+        gender: {
+            type: String,
+        },
+
+        gitHub: {
+            type: String,
+        },
+
+        linkedIn: {
+            type: String,
+        },
+        resume: {
+            type: String,
+        },
+        
+        
         hashed_password: {
             type: String,
             required: true
