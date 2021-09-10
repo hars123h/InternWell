@@ -13,7 +13,7 @@ const Mentor = () => {
 							<h2><i className="fa fa-pencil"></i>Our Mentors</h2>
 							<ul>
 								<li><NavLink to="/"><i className="fa fa-home"></i>Home</NavLink></li>
-								<li><NavLink to="/"><i className="fa fa-clone"></i>Pages</NavLink></li>
+								<li><NavLink to="/"><i className="fa fa-clone"></i>Know More</NavLink></li>
 								<li className="active"><a href="/mentor"><i className="fa fa-clone"></i>Mentors</a></li>
 							</ul>
 						</div>
@@ -30,8 +30,7 @@ const Mentor = () => {
 							<div className="section-title">
 								<span className="title-bg">Mentor</span>
 								<h1>Our Mentors</h1>
-								<p>The team of Internwell firmly believes that , “ we cannot always build the
-									future for our youth but we can build our youth for the future .”</p>
+								<p style={{fontSize: "14px"}}>No description needed, but if description is necessary : Our mentors are among the best experts in their fields</p>
 							</div>
 						</div>
 					</div>

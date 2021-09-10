@@ -8,16 +8,16 @@ const NewSocityInit = () => {
             <div className="box">
                 <h2><img src="./images/icon2.png" alt="icon" /> </h2>
                 <h3>Fund Raisers</h3>
-                <p>
-                InternWell orgainsation always steps forward for helping the needy ones to raise funds who themselves cannot arrange that much money and are in urgent need of money but cannot reach out to those people
+                <p style={{marginTop: "25px"}}>
+                Internwell always participates in fundraising for humanitarian, environmental and societal causes.
                 </p>
             </div>
 
             <div className="box">
                 <h2><img src="./images/icon1.png" alt="icon" /></h2>
                 <h3> COVID Volunteers</h3>
-                <p>
-                During this COVID-19 Pandemic, InternWell orgainsation has tried its best to reach out the needy ones, organising social camps, reaching out to doctors and hospitals, helping various patients also in arranging beds and other equipments.
+                <p style={{marginTop: "25px"}}>
+                During this COVID-19 Pandemic, InternWell tried its best to reach out to assist those in need.We helped organise social camps, reached out to doctors and hospitals, helped various patients arrange beds and other equipment.
                 </p>
             </div>
 
@@ -25,16 +25,16 @@ const NewSocityInit = () => {
                 <h2><img src="./images/icon3.png" alt="icon" /></h2>
                 <h3>Donations</h3>
                 
-                <p>
-                During this COVID-19 Pandemic, InternWell orgainsation has also donated in PM Cares Fund which can be used for relief efforts against the coronavirus outbreak and similar pandemic like situations in the future
+                <p style={{marginTop: "25px"}}>
+                During this COVID-19 Pandemic, InternWell also donated in PM Cares Fund which was used for relief efforts against the coronavirus outbreak.
                 </p>
             </div>
 
             <div className="box">
                 <h2><img src="./images/icon4.png" alt="icon" /></h2>
                 <h3>Vaccine Volunteers</h3>
-                <p>
-                InternWell orgainsation has also played a major role as a Vaccine Volunteer by guiding people at Vaccination sites, helps clinical team and administration in managing the patients and other stuff.
+                <p style={{marginTop: "25px"}}>
+                We played a major role as Vaccine Volunteers by guiding people at Vaccination sites and helping the clinical team and administration in managing the patients.
                 </p>
             </div>
         </div>
