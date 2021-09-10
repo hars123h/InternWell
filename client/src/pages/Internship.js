@@ -29,20 +29,14 @@ const Internship = () => {
 						<div className="section-title">
 							<span className="title-bg">Internships</span>
 							<h1>What we provide</h1>
-							<p>We here at Internwell provide various internship programmes wherein interns get a chance to work on a number of live projects. 
-							Being a part of live projects will serve as a medium for getting exposed to real
-                             life challenges in this competitive world. We have a dedicated team of experts 
-                             at Internwell who mentor and work tirelessly to guide the interns while working
-                              on live projects .</p> <br /><br />
+							<p style={{fontSize: "15px"}}><strong>For students :</strong> At internwell, interns get the opportunity of working on live internships.We equip our interns with in-demand skills and hands -on experience ..</p><br />
+							<p style={{fontSize: "15px"}}><strong>For Businesses :</strong> We provide digital solutions and help businesses grow by developing customized websites and apps.</p> <br /><br />
 							<h6>We believe in rising by lifting others , so we require interns with minimum 
                             experience who want to work with utmost dedication .</h6>
                             {/* </p>
 								</p> */}
-                                <p>
-									So make sure you at least have one internship on your resume before 
-                                    leaving college to give you a leg up on the competition !!!!</p>
 									<br />
-								<h6>SO GET READY FOR EXPANDING YOUR KNOWLEDGE AND SKILLS WITH</h6> 
+								<h6>So get ready for expanding your knowledge and skills with</h6> 
                                 <h5>TEAM INTERNWELL !!</h5>
 								
 						</div>
@@ -55,7 +49,7 @@ const Internship = () => {
 							<i className="fa fa-wordpress"></i>
 							<h2><a href="/internForm">Web Development</a></h2>
 							<p>Websites are the heart behind the working of the Internet. Hence the
-								art of creating and hosting such websites on the Internet is the idea behind “Web Development”. It is one of the most important technical disciplines of modern computing and forms an integral part of any business.</p>
+								art of creating and hosting such websites on the Internet. It is one of the most important technical disciplines of modern computing and forms an integral part of any business.</p>
 						</div>
 						{/* <!-- End Single Service --> */}
 					</div>
@@ -64,10 +58,7 @@ const Internship = () => {
 						<div className="single-service">
 							<i className="fa fa-lightbulb-o"></i>
 							<h2><a href="/internForm">Digital Marketing</a></h2>
-							<p>Digital marketing is a booming industry and learning under the
-								supervision of experts will help you become a successful Digital Marketer. Skills are the key
-								focus in any career, especially digital marketing. You will not only learn the required skills but
-								will get proof of your learnings and achievements.
+							<p>Digital marketing is a booming industry and learning under the supervision of experts will help you become a successful Digital Marketer. Skills are the key focus of any career, especially digital marketing. What are you waiting for? Come, learn new skills and get certified!
 								</p>
 						</div>
 						{/* <!-- End Single Service --> */}
@@ -77,7 +68,7 @@ const Internship = () => {
 						<div className="single-service">
 							<i className="fa fa-bullhorn"></i>
 							<h2><a href="/internForm">Social Media Marketing</a></h2>
-							<p>Social media marketing is growing day-by-Social media is one common platform where billions of users stay connected . It is not always easy to get your foot in the door when aiming to work in competitive fields like social media marketing. That is where an internship can be useful. One of the biggest benefits of acquiring a marketing internship is the chance to gain experience from people who are experts in this field .
+							<p>Social media is one common platform where billions of users stay connected . It is not always easy to get your foot in the door when aiming to work in competitive fields like social media marketing. This is when an internship comes handy.One of the biggest benefits of acquiring a marketing internship is the chance to gain experience from people who are experts in this field .
 								</p>
 						</div>
 						{/* <!-- End Single Service --> */}

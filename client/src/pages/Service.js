@@ -39,50 +39,35 @@ const Service = () => {
 						<ServiceComponent
 						ServiceImage="./images/slider/gallery-image2.jpg" 
 							ServiceTitle="Business Consulting"
-							ServicePara="In the current scenario, business and startus culture are growing rapidly especially
-							 in India and thats why we have bring this consulting service
-							 in which we will help people with their business development and other 
-							 things related to grow their market value"
+							ServicePara="In the current scenario, business and startus culture are growing rapidly especially in India and we provide digital solutions and help businesses grow by developing customized websites and apps."
 						/>
 
                         <ServiceComponent
 						ServiceImage="./images/service3.jpg" 
 							ServiceTitle="Content Writing"
-							ServicePara="Content Writers are in huge demand across the nation. It is one of the fastest growing
-							roles in the modern industry’s scenario. The need of creative content is growing each day. 
-							Little knowledge 
-							of SEO and correct usage of language along with a hint of creativity goes a long way"
+							ServicePara="The best way to improve your writing is to write continuously. Writing lots of content while working on various projects will help you understand the subtle distinctions between grammar, sentence constitution, and the overall structure of your writing."
 						/>
 						<ServiceComponent
 							ServiceImage="./images/service1.jpeg" 
 							ServiceTitle="Web Development"
-							ServicePara="This is the area of our expertise. We have the best mentors available to make great user-friendly
-							 websites that will attract customers for your products. Through SEO optimisation we will make sure that 
-							 the website is displayed amongst the top ones of searches."
+							ServicePara="Websites form the heart of the Internet. Web development is the art of creating and hosting such websites on the Internet . It is one of the most important disciplines of modern computing and forms an integral part of any business."
 						/>
 
 						<ServiceComponent 
 						ServiceImage="./images/service5.jpg" 
 							ServiceTitle ="Digital Marketing"
-							ServicePara="Our varied Digital Marketing services include Social Media Marketing, Content Marketing,
-							 Video Marketing and Online advertisements, etc.
-							 Through these services we will make sure that your outreach is as wide as possible"
+							ServicePara="Digital marketing is a booming industry and learning under the supervision of experts will help you become a successful Digital Marketer. Skills are the key focus of any career, especially digital marketing. What are you waiting for? Come, learn new skills and get certified!"
 						/>
 						
 						<ServiceComponent 
 						ServiceImage="./images/service2.jpg" 
 							ServiceTitle="App Development"
-							ServicePara="We offer never before prices for cross platform app development for your enterprises.
-							 Apps can be used for a variety of purposes. The portability of Apps is helping enterprises track production stats
-							  and resources faster than ever.
-							Apps offer widespread connectivity and can establish a direct bridge between the customer and the enterprise"
+							ServicePara="App design combines a low-threshold entry into programming with the ability to create apps that make an impact. Joining this internship will help you learn how to solve hard logic problems and build interactive apps."
 						/>
 						<ServiceComponent 
 						ServiceImage="./images/service6.png" 
 							ServiceTitle="Social Media Marketing"
-							ServicePara="This is yet another in demand role now-a-days. Companies pay a lot to active social media managers who can creatively manage the social media platform of the company.
-							 Social Media is the biggest weapon for a company to advertise and increase its outreach. 
-							 This is a great skill to have in your resume"
+							ServicePara="Social media is one common platform where billions of users stay connected . It is not always easy to get your foot in the door when aiming to work in competitive fields like social media marketing."
 						/>
 						
 					</div>

@@ -12,7 +12,7 @@ const Team = () => {
 							<h2><i className="fa fa-pencil"></i>Our Leaders</h2>
 							<ul>
 								<li><a href="/"><i className="fa fa-home"></i>Home</a></li>
-								<li><a href="/"><i className="fa fa-clone"></i>Pages</a></li>
+								<li><a href="/"><i className="fa fa-clone"></i>Know More</a></li>
 								<li className="active"><a href="/team"><i className="fa fa-clone"></i>Team</a></li>
 							</ul>
 						</div>
@@ -29,8 +29,7 @@ const Team = () => {
 							<div className="section-title">
 								<span className="title-bg">Team</span>
 								<h1>Our Leaders</h1>
-								<p>The team of Internwell firmly believes that , “ we cannot always build the
-									future for our youth but we can build our youth for the future .”</p>
+								<p style={{fontSize: "14px"}}>No description needed. But if description is necessary, the description will be Team internwell firmly believes that we cannot always build the future for our youth, but we can build our youth for the future.</p>
 							</div>
 						</div>
 					</div>

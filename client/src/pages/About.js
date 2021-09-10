@@ -12,7 +12,7 @@ const About = () => {
 						<h2><i className="fa fa-pencil"></i>About Our Company</h2>
 						<ul>
 							<li><NavLink to="/"><i className="fa fa-home"></i>Home</NavLink></li>
-							<li><NavLink to="/"><i className="fa fa-clone"></i>Pages</NavLink></li>
+							<li><NavLink to="/"><i className="fa fa-clone"></i>Know More</NavLink></li>
 							<li className="active"><NavLink to="/about"><i className="fa fa-clone"></i>About Us</NavLink></li>
 						</ul>
 					</div>
@@ -52,8 +52,11 @@ const About = () => {
 						{/* <!-- About Content --> */}
 						<div className="about-content">
 							<h2 style={{color: "#000"}}>A world className platform for the young undergrads to scale up their skills & potentials !!</h2>
-							<p style={{fontSize: "14px"}}>Internships are a great way to showcase skillset to employers. They provide with experience of how the industry works & functions. Working on a live project provides a cutting edge over the competitors as it adds up as a bonus to the resume. We here at InternWell provide interns with hands-on experience on the projects that we take up from SMEs under the mentorship of experts from our team.</p>
-							<p style={{fontSize: "14px"}}>Based on the performance, the interns might also receive some stipend. We require the interns to have some basic know-how of the desired work before applying for, as the interns will get to worl real-life projects that we obtain from an enterprises. Furthermore, we have a dedicated team of experts who mentor and guide the interns working on the live projects. Our team members make sure that the projects are carved with perfection and delivered before the deadline.</p>
+							<p style={{fontSize: "14px"}}>We are a socio-startup by and for students whose goal is to provide digital solutions to SMEs and help their businesses soar to new heights by developing customized Websites & Apps, developed by budding interns who in turn get opportunities to hone their skills and become future ready.Most of the companies have left a major part of the society, the underprivileged behind. We wish to help this section grow & develop their lifestyle by upgrading their technical skills and enhancing employability. We aim to invest our time and about 20% of our investments towards thissocial venture.</p>
+
+							<p style={{fontSize: "14px"}}>An excellent way to learn new skills while honing existing ones. We give you firsthand knowledge of how the industry works and functions. Working on a live project gives you an advantage because it counts as a bonus on your resume. InternWell provides interns with hands-on experience on projects that we take on from SMEs, all while being mentored by experts.</p>
+
+							<p style={{fontSize: "14px"}}>We require interns to have a basic know-how of the desired work before applying, as they will be working on real-world projects we obtain from businesses. We have a dedicated team of experts who mentor and guide the interns working on live projects. Our team members ensure that the projects are carved to perfection and delivered before the deadline.</p>
 						</div>
 						{/* <!--/ End About Content --> */}
 					</div>

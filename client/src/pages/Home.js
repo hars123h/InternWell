@@ -15,8 +15,7 @@ const Home = () => {
                                     {/* <!-- Slider Text --> */}
                                     <div className="slider-text">
                                         <h1>InternWell <span>Business</span> World That Possible anything<span>!</span></h1>
-                                        <p style={{fontSize: "15px"}}>The vision of team InternWell is to build a strong bridge between the world
-                                            of education and the world of work in order to equip the youth with the right skills and ideas. </p>
+                                        <p style={{fontSize: "15px"}}>Our vision is to build a strong bridge between the world of education and the world of work by equipping students with the right skills and ideas. </p>
                                         <div className="button">
                                             <button className="btn">Our Portfolio</button>
                                             <button className="btn video video-popup mfp-fade"><i className="fa fa-play"></i>Play Now</button>
@@ -60,8 +59,7 @@ const Home = () => {
                                     {/* <!-- Slider Text --> */}
                                     <div className="slider-text text-right">
                                         <h1>InternWell <span>Business</span> World That Possible anything<span>!</span></h1>
-                                        <p style={{fontSize: "15px"}}>Our main aim is to bring the youth, especially from remote areas into the
-                                            skilled workforce of our country so that they can secure a better livelihood for themselves.
+                                        <p style={{fontSize: "35px"}}>An initiative by students, for students.
                                         </p>
                                         <div className="button">
                                             <button className="btn">Our Services</button>
@@ -131,10 +129,10 @@ const Home = () => {
                             {/* <!-- About Content --> */}
                             <div className="about-content">
                                 <h2 style={{color: "#000"}}>A world className platform for the young undergrads to scale up their skills & potentials !!</h2>
-                                <p style={{fontSize: "13px"}}>Internships are a great way to showcase skillset to employers. They provide with experience of how the industry works & functions. Working on a live project provides a cutting edge over the competitors as it adds up as a bonus to the resume. We here at InternWell provide interns with hands-on experience on the projects that we take up from SMEs under the mentorship of experts from our team.</p>
-                                <p style={{fontSize: "13px"}}>Based on the performance, the interns might also receive some stipend. We require the interns to have some basic know-how of the desired work before applying for, as the interns will get to worl real-life projects that we obtain from an enterprises. Furthermore, we have a dedicated team of experts who mentor and guide the interns working on the live projects. Our team members make sure that the projects are carved with perfection and delivered before the deadline.</p>
+                                <p style={{fontSize: "14px"}}>We are a socio-startup by and for students whose goal is to provide digital solutions to SMEs and help their businesses soar to new heights by developing customized Websites & Apps, developed by budding interns who in turn get opportunities to hone their skills and become future ready.Most of the companies have left a major part of the society, the underprivileged behind. We wish to help this section grow & develop their lifestyle by upgrading their technical skills and enhancing employability. We aim to invest our time and about 20% of our investments towards thissocial venture.</p>
+                                <p style={{fontSize: "14px"}}>An excellent way to learn new skills while honing existing ones. We give you firsthand knowledge of how the industry works and functions. Working on a live project gives you an advantage because it counts as a bonus on your resume. InternWell provides interns with hands-on experience on projects that we take on from SMEs, all while being mentored by experts.</p>
 
-                                <p style={{fontSize: "13px"}}>We require people who have good enough skills, have minimum experience, and can dedicate enough time to the company. InternWell in its starting stages will be providing experience and a great platform to develop your skills at the ease of your home. Interested? Drop us a message and we will look into it...</p>
+                                <p style={{fontSize: "14px"}}>We require interns to have a basic know-how of the desired work before applying, as they will be working on real-world projects we obtain from businesses. We have a dedicated team of experts who mentor and guide the interns working on live projects. Our team members ensure that the projects are carved to perfection and delivered before the deadline.</p>
                             </div>
                             {/* <!--/ End About Content --> */}
                         </div>
@@ -198,11 +196,7 @@ const Home = () => {
                             <div className="section-title">
                                 <span className="title-bg">Services</span>
                                 <h1>What we provide</h1>
-                                <p style={{fontSize: "13px"}}>We here at InternWell provide various internship programmes wherein interns get a chance to work on a number of live projects.
-                                    Being a part of live projects will serve as a medium for getting exposed to real
-                                    life challenges in this competitive world. We have a dedicated team of experts
-                                    at InternWell who mentor and work tirelessly to guide the interns while working
-                                    on live projects.</p>
+                                <p style={{fontSize: "13px"}}>At internwell, interns get the opportunity of working on live internships.We equip our interns with in-demand skills and hands -on experience .</p>
                             </div>
                         </div>
                     </div>
@@ -213,20 +207,14 @@ const Home = () => {
                                 <div className="single-service">
                                     <i className="fa fa-magic"></i>
                                     <h2><a href="/service">Digital Marketing</a></h2>
-                                    <p>Digital marketing is a booming industry and learning under the
-                                        supervision of experts will help you become a successful Digital Marketer. Skills are the key
-                                        focus in any career, especially digital marketing. You will not only learn the required skills but
-                                        will get proof of your learnings and achievements.</p>
+                                    <p>Digital marketing is a booming industry and learning under the supervision of experts will help you become a successful Digital Marketer. Skills are the key focus of any career, especially digital marketing. What are you waiting for? Come, learn new skills and get certified!</p>
                                 </div>
                                 {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
                                 <div className="single-service">
                                     <i className="fa fa-desktop" aria-hidden="true"></i>
                                     <h2><a href="/service">Web Development</a></h2>
-                                    <p>Websites are the heart behind the working of the Internet.
-                                        Hence the art of creating and hosting such websites on the Internet is the idea
-                                        behind “Web Development”. It is one of the most important technical
-                                        disciplines of modern computing and forms an integral part of any business.Apps offer widespread connectivity and can establish a direct bridge between the customer and the enterprise.
+                                    <p>Websites form the heart of the Internet. Web development is the art of creating and hosting such websites on the Internet . It is one of the most important disciplines of modern computing and forms an integral part of any business.
                                     </p>
                                 </div>
                                 {/* <!-- End Single Service -->
@@ -242,51 +230,15 @@ const Home = () => {
                                     <i className="fa fa-pencil-square-o" aria-hidden="true"></i>
 
                                     <h2><a href="/service">Content Writers</a></h2>
-                                    <p>Grow as a writer. The best way to improve your writing is to write continuously . Writing lots of content while working on various projects will help you to figure out about the subtle distinction of grammer, sentence constitution and the overall structure of your writing . It will also enable you to understand how different forms of writing impact different people.</p>
+                                    <p>Grow as a writer. The best way to improve your writing is to write continuously. Writing lots of content while working on various projects will help you understand the subtle distinctions between grammar, sentence constitution, and the overall structure of your writing. It will also enable you to understand how different forms of writing affect different people.</p>
                                 </div>
                                 {/* <!-- End Single Service -->
                             <!-- Single Service --> */}
                                 <div className="single-service">
                                     <i className="fa fa-share-square-o" aria-hidden="true"></i>
                                     <h2><a href="/service">Social Media Maketing</a></h2>
-                                    <p>Social media marketing is growing day-by-Social media is one common platform where billions of users stay connected . It is not always easy to get your foot in the door when aiming to work in competitive fields like social media marketing. That is where an internship can be useful. One of the biggest benefits of acquiring a marketing internship is the chance to gain experience from people who are experts in this field .</p>
+                                    <p>Social media is one common platform where billions of users stay connected . It is not always easy to get your foot in the door when aiming to work in competitive fields like social media marketing. This is when an internship comes handy.One of the biggest benefits of acquiring a marketing internship is the chance to gain experience from people who are experts in this field</p>
                                 </div>
-                                {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                                {/* <div className="single-service">
-                                <i className="fa fa-lightbulb-o"></i>
-                                <h2><a href="/service">Creative Idea</a></h2>
-                                <p>Creative and erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat classNameical Latin</p>
-                            </div> */}
-                                {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                                {/* <div className="single-service">
-                                <i className="fa fa-wordpress"></i>
-                                <h2><a href="/service">Development</a></h2>
-                                <p>just fine erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat classNameical Latin</p>
-                            </div> */}
-                                {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                                {/* <div className="single-service">
-                                <i className="fa fa-bullhorn "></i>
-                                <h2><a href="/service">Marketing</a></h2>
-                                <p>Possible of erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat classNameical Latin</p>
-                            </div> */}
-                                {/* <!-- End Single Service -->
-                            <!-- Single Service --> */}
-                                {/* <div className="single-service">
-                                <i className="fa fa-bullseye "></i>
-                                <h2><a href="/service">Direct Work</a></h2>
-                                <p>Everything ien erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat Latin</p>
-                            </div> */}
-                                {/* <!-- End Single Service -->	
-                            <!-- Single Service --> */}
-                                {/* <div className="single-service">
-                                <i className="fa fa-cube"></i>
-                                <h2><a href="/service">Creative Plan</a></h2>
-                                <p>Information sapien erat,  non porttitor non, dignissim et enim Aenean ac enim feugiat classNameical Latin</p>
-                            </div> */}
-                                {/* <!-- End Single Service --> */}
                             </div>
                         </div>
                     </div>

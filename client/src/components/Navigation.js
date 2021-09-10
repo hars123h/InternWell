@@ -25,11 +25,12 @@ const Navigation = ({ children, history, match }) => {
 									<nav className="navigation">
 										<ul className="nav menu">
 											<li className="active"><a href ="/">Home</a></li>
-											<li><a>Pages<i className="fa fa-caret-down"></i></a>
+											<li><a>Know More<i className="fa fa-caret-down"></i></a>
 												<ul className="dropdown">
 													<li><Link to="/about">About Us</Link></li>
 													<li><Link to="/team">Our Team</Link></li>
 													<li><Link to="/mentor">Our Mentor</Link></li>
+													<li><Link to="/blogs">Blogs</Link></li>
 												</ul>
 											</li>
 											<li><Link to="/services">Services</Link></li>
