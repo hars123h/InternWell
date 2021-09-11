@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './Profile.css'
 
 
@@ -18,22 +18,23 @@ const Profile = ({
 }) => {
     return (
         <>
-                    {/* <!-- Breadcrumb --> */}
-                    <section className="breadcrumbs">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-12">
-                                    <h2><i className="fa fa-pencil"></i>{userName}</h2>
-                                    <ul>
-                                        <li><NavLink to="/"><i className="fa fa-home"></i>Home</NavLink></li>
-                                        <li className="active"><NavLink to="/about"><i className="fa fa-clone"></i>Profile</NavLink></li>
-                                    </ul>
-                                </div>
-                            </div>
+            {/* <!-- Breadcrumb --> */}
+            <section className="breadcrumbs">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2><i className="fa fa-pencil"></i>{userName}</h2>
+                            <ul>
+                                <li><NavLink to="/"><i className="fa fa-home"></i>Home</NavLink></li>
+                               
+                                <li className="active"><NavLink to="/private"><i className="fa fa-clone"></i>Edit Profile</NavLink></li>
+                            </ul>
                         </div>
-                    </section>
-                    {/* <!-- /Breadcrumb --> */}
-                    <div className="container my-5 pb-5">
+                    </div>
+                </div>
+            </section>
+            {/* <!-- /Breadcrumb --> */}
+            <div className="container my-5 pb-5">
                 <div className="main-body">
 
                     <div className="row gutters-sm profile">
@@ -46,7 +47,7 @@ const Profile = ({
                                             <h4>{userName}</h4>
                                             <p className="text-secondary mb-1">{email}</p>
                                             <p className="text-muted font-size-sm">{address}</p>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -70,7 +71,7 @@ const Profile = ({
                                             <h6 className="mb-0 ml-3">Email</h6>
                                         </div>
                                         <div className="col-sm-9 text-secondary ml-3 ml-sm-0">
-                                           {email}
+                                            {email}
                                         </div>
                                     </div>
                                     <hr />
@@ -109,7 +110,7 @@ const Profile = ({
                                             {address}
                                         </div>
                                     </div>
-                                    
+
                                     {/* <div className="row">
                                         <div className="col-sm-12">
                                             <a className="btn btn-info " target="__blank" href="https://www.bootdey.com/snippets/view/profile-edit-data-and-skills">Edit</a>
@@ -123,25 +124,25 @@ const Profile = ({
                                     <li className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                                         <h6 className="mb-0"><i class="fa fa-github mr-2" aria-hidden="true"></i>  Github</h6>
                                         <span className="text-secondary">{gitHub}</span>
-                                        
-                                   </li>
-                                    
+
+                                    </li>
+
                                     <li className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                                         <h6 className="mb-0"><i class="fa fa-linkedin  text-primary mr-2" aria-hidden="true"></i>  LinkedIn</h6>
                                         <span className="text-secondary">{linkedIn}</span>
-                                     
-                                       
+
+
                                     </li>
                                     <li className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                                         <h6 className="mb-0"><i class="fa fa-book mr-2" aria-hidden="true"></i> Resume </h6>
                                         <span className="text-secondary">{resume}</span>
-                                       
+
                                     </li>
                                 </ul>
                             </div>
-                            <button className="btn btn-warning text-white mt-5 p-2">
-                                      <i className="fa fa-pencil-square-o" aria-hidden="true"></i> Edit Profile
-                                </button>
+                            <Link to="/profile-edit" className="btn btn-warning text-white mt-5 p-2">
+                                <i className="fa fa-pencil-square-o" aria-hidden="true"></i> Edit Profile
+                            </Link>
                         </div>
                     </div>
 

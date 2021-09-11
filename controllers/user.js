@@ -16,60 +16,102 @@ exports.read = (req, res) => {
     });
 };
 
-// exports.update = (req, res) => {
-//     // console.log('UPDATE USER - req.user', req.user, 'UPDATE DATA', req.body);
-//     const { name, password } = req.body;
+exports.update = (req, res) => {
+    // console.log('UPDATE USER - req.user', req.user, 'UPDATE DATA', req.body);
+    const { name,  mobile, address, collegeName, gitHub, linkedIn, resume, gender } = req.body;
 
-//     User.findOne({ _id: req.user._id }, (err, user) => {
-//         if (err || !user) {
-//             return res.status(400).json({
-//                 error: 'User not found'
-//             });
-//         }
-//         if (!name) {
-//             return res.status(400).json({
-//                 error: 'Name is required'
-//             });
-//         } else {
-//             user.name = name;
-//         }
+    User.findOne({ _id: req.user._id }, (err, user) => {
+        if (err || !user) {
+            return res.status(400).json({
+                error: 'User not found'
+            });
+        }
+        user.mobile = mobile;
+        user.address = address;
+        user.collegeName = collegeName;
+        user.gitHub = gitHub;
+        user.linkedIn = linkedIn;
+        user.resume = resume;
+        user.gender = gender;
+        if (!name) {
+            return res.status(400).json({
+                error: 'Name is required'
+            });
+        } else {
+            user.name = name;
+        }
 
-//         if (password) {
-//             if (password.length < 6) {
-//                 return res.status(400).json({
-//                     error: 'Password should be min 6 characters long'
-//                 });
-//             } else {
-//                 user.password = password;
-//             }
-//         }
+        // if (password == cPassword ) {
+        //     if (password.length < 6) {
+        //         return res.status(400).json({
+        //             error: 'Password should be min 6 characters long'
+        //         });
+        //     } else {
+        //         user.password = password;
+        //     }
+        // }
+        // else{
+        //     return res.status(400).json({
+        //         error: 'Password not matched'
+        //     });
+        // }
 
-//         user.save((err, updatedUser) => {
-//             if (err) {
-//                 console.log('USER UPDATE ERROR', err);
-//                 return res.status(400).json({
-//                     error: 'User update failed'
-//                 });
-//             }
-//             updatedUser.hashed_password = undefined;
-//             updatedUser.salt = undefined;
-//             res.json(updatedUser);
-//         });
-//     });
-// };
 
-exports.update = async (req, res) => {
-    try {
-        const _id =  req.user._id 
-        const updateUser = await User.findByIdAndUpdate(_id, req.body, {
-            new: true
-        } ) ;
-        res.json(updateUser)
-    } catch(e) {
-        res.status(404).json({
-            error:"User not Updated"
+        user.save((err, updatedUser) => {
+            if (err) {
+                console.log('USER UPDATE ERROR', err);
+                return res.status(400).json({
+                    error: 'User update failed'
+                });
+            }
+            // updatedUser.hashed_password = undefined;
+            // updatedUser.salt = undefined;
+            res.json(updatedUser);
         });
-    }
+    });
+};
+
+// exports.update = async (req, res) => {
+    
+// } 
+
+exports.updatePassword = (req, res) => {
+    const { password, cPassword } = req.body;
+    User.findOne({ _id: req.user._id }, (err, user) => {
+        if (err || !user) {
+            return res.status(400).json({
+                error: 'User not found'
+            });
+        }
+       
+
+        if (password == cPassword ) {
+            if (password.length < 6) {
+                return res.status(400).json({
+                    error: 'Password should be min 6 characters long'
+                });
+            } else {
+                user.password = password;
+            }
+        }
+        else{
+            return res.status(400).json({
+                error: 'Password not matched'
+            });
+        }
+
+        user.save((err, updatedPassword) => {
+            if (err) {
+                console.log('Password  UPDATE ERROR', err);
+                return res.status(400).json({
+                    error: 'Password update failed'
+                });
+            }
+            updatedPassword.hashed_password = undefined;
+            updatedPassword.salt = undefined;
+            res.json(updatedPassword);
+        });
+    });
 }
 
 
@@ -92,17 +134,17 @@ exports.contactForm = (req, res) => {
     };
 
     sgMail
-            .send(emailData)
-            .then(sent => {
-                // console.log('SIGNUP EMAIL SENT', sent)
-                return res.json({
-                    message: `Your Message has been sent Successfully`
-                 });
-            })
-            .catch(err => {
-                // console.log('SIGNUP EMAIL SENT ERROR', err)
-                return res.json({
-                    message: err.message
-                });
+        .send(emailData)
+        .then(sent => {
+            // console.log('SIGNUP EMAIL SENT', sent)
+            return res.json({
+                message: `Your Message has been sent Successfully`
             });
+        })
+        .catch(err => {
+            // console.log('SIGNUP EMAIL SENT ERROR', err)
+            return res.json({
+                message: err.message
+            });
+        });
 };
