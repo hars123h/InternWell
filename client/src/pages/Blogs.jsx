@@ -45,7 +45,7 @@ const Blogs = () => {
 						BlogVisit="https://medium.com/towards-skilldom/internwell-dd9a4e6459fe"
 						/>
 						<NewBlogs
-						BlogImage="https://static.wixstatic.com/media/e81ccc_49f04b2e551e45ed9f6282bbfeacf796~mv2.jpeg/v1/fill/w_343,h_224,al_c,q_80,usm_0.66_1.00_0.01/DD53608D-3D55-4758-855A-20894E4E1628.webp" 
+						BlogImage="./images/blog3.jpg" 
 						BlogTitle="InternWell - A Socio Startup"
 						BlogPara="InternWell is a Socio-Startup whose vision is “Work for all while leaving no one behind“. It offers a range of digital services, including Web and App development, Social media marketing, Content Writing, Freelancing, etc. that can be advantageous to SMEs to upscale their business."
 						BlogVisit="https://bhojpuriaentrepreneur.wpcomstaging.com/2020/07/30/internwell/"
