@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link,  Redirect } from 'react-router-dom';
-
 import axios from 'axios';
 import { isAuth } from './helpers';
 import { ToastContainer, toast } from 'react-toastify';
@@ -67,7 +66,7 @@ const Signup = () => {
     );
 
     return (
-    
+        <>
             <div className="col-md-6 offset-md-3">
                 <ToastContainer /> 
                 {isAuth() ? <Redirect to="/" /> : null}
@@ -83,7 +82,7 @@ const Signup = () => {
                 </Link>
                 <br /> <br /> <br /> <br /> <br /> <br />
             </div>
-        
+        </>
     );
 };
 
