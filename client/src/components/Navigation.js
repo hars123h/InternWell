@@ -24,24 +24,24 @@ const Navigation = ({ children, history, match }) => {
 								<div className="mainmenu">
 									<nav className="navigation">
 										<ul className="nav menu">
-											<li className="active"><a href ="/">Home</a></li>
-											<li><a>Know More<i className="fa fa-caret-down"></i></a>
+											<li ><a href ="/">Home</a></li>
+											<li ><a>Know More<i className="fa fa-caret-down"></i></a>
 												<ul className="dropdown">
-													<li><Link to="/about">About Us</Link></li>
-													<li><Link to="/team">Our Team</Link></li>
-													<li><Link to="/mentor">Our Mentor</Link></li>
-													<li><Link to="/blogs">Blogs</Link></li>
+													<li><a href="/about">About Us</a></li>
+													<li><a href="/team">Our Team</a></li>
+													<li><a href="/mentor">Our Mentor</a></li>
+													<li><a href="/blogs">Blogs</a></li>
 												</ul>
 											</li>
-											<li><Link to="/services">Services</Link></li>
-											<li><Link to="/internshp">Internship</Link></li>
-											<li><Link to="/">Social Initiative<i className="fa fa-caret-down"></i></Link>
+											<li><a href="/services">Services</a></li>
+											<li><a href="/internshp">Internship</a></li>
+											<li><a href="/">Social Initiative<i className="fa fa-caret-down"></i></a>
 												<ul className="dropdown">
-													<li><Link to="/student-init">Initiative for Students</Link></li>
-													<li><Link to="/society-init">Initiative for Society</Link></li>
+													<li><a href="/student-init">Initiative for Students</a></li>
+													<li><a href="/society-init">Initiative for Society</a></li>
 												</ul>
 											</li>
-											<li><Link to="/contact">Contact</Link></li>
+											<li><a href="/contact">Contact</a></li>
 											{/* <li><Link to="/internForm">Intrn</Link></li> */}
 											{!isAuth() && (
 												<Fragment>
@@ -51,9 +51,9 @@ const Navigation = ({ children, history, match }) => {
 														</Link>
 													</li> */}
 													<li className="nav-item">
-														<Link to="/signup" className="nav-link" >
+														<a href="/signup" className="nav-link" >
 															Signup
-														</Link>
+														</a>
 													</li>
 												</Fragment>
 											)}

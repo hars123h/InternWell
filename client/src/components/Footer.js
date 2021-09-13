@@ -61,8 +61,8 @@ const Footer = () => {
                                     <p>Chandigarh, Punjba, India</p>
                                     <ul className="list">
                                         {/* <!-- <li><i className="fa fa-map-marker"></i>Address: House 20, Sector-7, Road-5, California, US</li> --> */}
-                                        <li><i className="fa fa-headphones"></i>Phone: +91 9882094318</li>
-                                        <li><i className="fa fa-headphones"></i>Email:<a href="mailto:internwellofficial@gmail.com">internwellofficial@gmail.com</a></li>
+                                        <li><i className="fa fa-phone"></i> +91 9882094318</li>
+                                        <li><i className="fa fa-envelope"></i><a href="mailto:internwellofficial@gmail.com"> internwellofficial@gmail.com</a></li>
                                     </ul>
                                 </div>
 
@@ -72,14 +72,14 @@ const Footer = () => {
                                 <div className="single-widget links">
                                     <h2>Quick Links</h2>
                                     <ul className="list">
-                                        <li><a href="about-us.html"><i className="fa fa-caret-right"></i>About Our Company</a></li>
-                                        <li><a href="services.html"><i className="fa fa-caret-right"></i>Our Services</a></li>
-                                        <li><a href="internship.html"><i className="fa fa-caret-right"></i>Our Internships</a></li>
-                                        <li><a href="https://medium.com/@internwellofficial"><i className="fa fa-caret-right"></i>Latest Blog</a></li>
-                                        <li><a href="team.html"><i className="fa fa-caret-right"></i>Our Team</a></li>
-                                        <li><a href="society-init.html"><i className="fa fa-caret-right"></i>Social Initiatives</a></li>
-                                        <li><a href="students-init.html"><i className="fa fa-caret-right"></i>Sotudents Initiatives</a></li>
-                                        <li><a href="contact.html"><i className="fa fa-caret-right"></i>Contact With Us</a></li>
+                                        <li><a href="about"><i className="fa fa-caret-right"></i>About Our Company</a></li>
+                                        <li><a href="/services"><i className="fa fa-caret-right"></i>Our Services</a></li>
+                                        <li><a href="/internshp"><i className="fa fa-caret-right"></i>Our Internships</a></li>
+                                        {/* <li><a href="https://medium.com/@internwellofficial"><i className="fa fa-caret-right"></i>Latest Blog</a></li> */}
+                                        <li><a href="/team"><i className="fa fa-caret-right"></i>Our Team</a></li>
+                                        {/* <li><a href="society-init.html"><i className="fa fa-caret-right"></i>Social Initiatives</a></li>
+                                        <li><a href="students-init.html"><i className="fa fa-caret-right"></i>Sotudents Initiatives</a></li> */}
+                                        {/* <li><a href="contact.html"><i className="fa fa-caret-right"></i>Contact With Us</a></li> */}
                                     </ul>
                                 </div>
 
@@ -89,11 +89,11 @@ const Footer = () => {
                                 <div className="single-widget twitter">
                                     <h2>Recent Tweets</h2>
                                     <div className="single-tweet">
-                                        <i className="fa fa-twitter"></i>
+                                        {/* <i className="fa fa-twitter"></i> */}
                                         <p><a href="https://twitter.com/InternWell/status/1406988025934925831">@Internwell</a>*Yoga is not a work-out, it is a work-in. And this is the point of spiritual practice; to make us teachable; to open up our hearts and focus our awareness</p>
                                     </div>
                                     <div className="single-tweet">
-                                        <i className="fa fa-twitter"></i>
+                                        {/* <i className="fa fa-twitter tweet-sym"></i> */}
                                         <p><a href="https://twitter.com/InternWell/status/1406501040787103744">@Internwell</a>wishes Happy Father’s Day to all the fathers who are patient, loving, dedicated, hard-working, generous, and funny.</p>
                                     </div>
 

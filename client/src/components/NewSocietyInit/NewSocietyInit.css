@@ -48,18 +48,18 @@
     opacity: 0.4;
 }
 .student .contain .box h3{
-    margin: 0;
+    margin: 15px;
     padding: 0;
     color: #fff;
     font-size: 24px;
     text-transform: uppercase;
-
+    /* line-height: 10px; */
 }
 
 .student .contain .box p{
     margin: 0;
     padding: 0;
-   
+    line-height: 27px;
     font-size: 15px;
 
 }

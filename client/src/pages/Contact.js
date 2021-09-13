@@ -42,12 +42,12 @@ const Contact = () => {
     const ContactForm = () => (
         <form>
             <div className="row">
-                <div className="col-lg-6 col-12">
+                <div className="col-lg-12 col-12">
                     <div className="form-group">
                         <input onChange={handleChange('name')} type="text" value={name} placeholder="Full Name" required="required" />
                     </div>
                 </div>
-                    <div className="col-lg-6 col-12">
+                    <div className="col-lg-12 col-12">
                         <div className="form-group">
                             <input onChange={handleChange('email')} type="email" value={email} placeholder="Your Email" required="required" />
                         </div>
@@ -58,7 +58,7 @@ const Contact = () => {
                                 <textarea onChange={handleChange('message')} name="message" value={message} rows="6" placeholder="Type Your Message" ></textarea>
                             </div>
                         </div>
-                        <div className="col-lg-12 col-12">
+                        <div className="col-lg-6 col-12">
                             <div className="form-group button">
                                 <button onClick={clickSubmit} className="btn primary py-2" style={{color: "#fff"}}>{buttonText}</button>
                             </div>

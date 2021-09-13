@@ -42,46 +42,42 @@ const Signup = () => {
 
     const signupForm = () => (
         <form>
-            <div className="form-group">
-                <label className="text-muted">Name</label>
-                <input onChange={handleChange('name')} value={name} type="text" className="form-control" />
-            </div> 
+                <div className="form-group">
+                    <label className="text-muted">Name</label>
+                    <input onChange={handleChange('name')} value={name} type="text" className="form-control" />
+                </div>
 
-            <div className="form-group">
-                <label className="text-muted">Email</label>
-                <input onChange={handleChange('email')} value={email} type="email" className="form-control" />
-            </div>
+                <div className="form-group">
+                    <label className="text-muted">Email</label>
+                    <input onChange={handleChange('email')} value={email} type="email" className="form-control" />
+                </div>
 
-            <div className="form-group">
-                <label className="text-muted">Password</label>
-                <input onChange={handleChange('password')} value={password} type="password" className="form-control" />
-            </div>
+                <div className="form-group">
+                    <label className="text-muted">Password</label>
+                    <input onChange={handleChange('password')} value={password} type="password" className="form-control" />
+                </div>
 
-            <div>
-                <button className="btn btn-primary" onClick={clickSubmit}>
-                    {buttonText}
-                </button>
-            </div>
+                <div className="form-group button">
+                    <button className="btn btn-primary py-2" onClick={clickSubmit}>
+                        {buttonText}
+                    </button>
+                </div>
         </form>
     );
 
     return (
         <>
-            <div className="col-md-6 offset-md-3">
-                <ToastContainer /> 
-                {isAuth() ? <Redirect to="/" /> : null}
+        <div className="col-md-6 offset-md-3">
+            <ToastContainer /> 
+            {isAuth() ? <Redirect to="/" /> : null}
                 <h1 className="p-5 text-center">Signup</h1>
-                {signupForm()}
-                <br />
-                {/* <Link to="/auth/password/forgot" className="btn btn-sm btn-outline-danger">
-                    Forgot Password
-                </Link> */}
-                
-                <Link to = "/signin">
+            {signupForm()}
+            <br />
+            <Link to = "/signin">
                 <h6>Already have an account ? </h6>
-                </Link>
-                <br /> <br /> <br /> <br /> <br /> <br />
-            </div>
+            </Link>
+            <br /> <br /> <br /> <br /> <br /> <br />
+        </div>
         </>
     );
 };

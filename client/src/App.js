@@ -23,11 +23,7 @@ import NewTeam from './pages/NewTeam';
 import InternForm from './pages/InternForm'
 import NewService from './components/NewService/NewService';
 import Blogs from './pages/Blogs'
-
-
 import Editprofile from './components/EditProfile/Editprofile';
-
-
 
 function App() {
   return (
@@ -35,7 +31,6 @@ function App() {
       <Router>
         <Navigation />
         <Switch>
-          
           <Route path="/" component={Home} exact></Route>
           <Route path="/blogs" component={Blogs} exact></Route>
           <Route path="/newService" component={NewService} exact></Route>
@@ -57,10 +52,6 @@ function App() {
           <Route path="/auth/password/forgot" exact component={Forgot} />
           <Route path="/auth/password/reset/:token" exact component={Reset} />
           <PrivateRoute path="/profile-edit" exact component={Editprofile} />
-          
-
-
-
         </Switch>
         <Footer />
       </Router>

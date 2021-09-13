@@ -183,7 +183,7 @@
 
 /* Header Sticky */
 .header.sticky .middle-bar{
-	position:fixed;
+	position: fixed;
 	top:0;
 	left:0;
 	width:100%;
@@ -191,7 +191,7 @@
 	-webkit-transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	transition:all 0.3s ease;
-	animation: fadeInDown 0.8s both 0.8s;
+	/* animation: fadeInDown 0.8s both 0.8s; */
 }
 .header.sticky .middle-bar .logo{
 	display:none;
@@ -1221,21 +1221,24 @@ select{
 /* Twitter Widget */
 .footer .single-tweet {
 	position: relative;
-	padding-left: 30px;
+	/* padding-left: 30px; */
 	margin-bottom: 10px;
+	color: #fff;
 }
+
 .footer .single-tweet:last-child{
 	margin:0;
 }
 .footer .single-tweet i {
 	left: 0;
-	font-size: 37px;
+	font-size: 7px;
 	top: 5px;
 	position: absolute;
 	z-index: 3;
 	opacity: 0.3;
 }
 .footer .single-tweet p{
+	font-size: small;
 	color:#bbb;
 }
 .footer .single-tweet p a {
@@ -1289,10 +1292,10 @@ select{
 	cursor: pointer;
 	border-radius: 3px;
 }
-.footer .single-widget.newsletter button:hover{
+/* .footer .single-widget.newsletter button:hover{
 	background:#fff;
 	color:#333;
-}
+} */
 /* Footer Bottom */
 .footer .footer-bottom {
 	text-align: center;
