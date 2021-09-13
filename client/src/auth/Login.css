@@ -1,0 +1,126 @@
+.h{
+    min-height: 110vh;
+    background: #f5f5f5;
+    
+   
+}
+input{
+    display: inline;
+}
+
+.h .container{
+    padding-top: 100px;
+    max-width: 800px !important;
+    min-height: 500px !important;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.myCard {
+    /* position: relative; */
+    background: #fff;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 11px 31px -10px rgba(0,0,0,0.7);
+-webkit-box-shadow: 0px 11px 31px -10px rgba(0,0,0,0.7);
+-moz-box-shadow: 0px 11px 31px -10px rgba(0,0,0,0.7);
+
+}
+
+.h .myRightCtn{
+    /* position: relative; */
+   
+    border-radius: 25px;
+    height: 100% !important;
+    padding: 23px;
+    /* color: rgb(192, 192, 192); */
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myLeftCtn{
+    /* position: relative; */
+    background: #fff;
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myLeftCtn header {
+    color: #005AC1;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.myCard .row{
+    height: 100%;
+}
+
+/* .myRightCtn header{
+    color: #fff;
+    font-size: 44px;
+} */
+
+.box{
+    position: relative;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+.myLeftCtn .myInput{
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+-webkit-box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+-moz-box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+}
+.myInput .myInput:focus{
+    outline: none;
+}
+
+/* .myForm{
+    position: relative;
+    margin-top: -50px;
+} */
+.myLeftCtn .butt{
+    background: linear-gradient(45deg, #bb36fd, #9b00e8);
+    color: #fff;
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0px 10px 41px -11px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px 10px 41px -11px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 10px 41px -11px rgba(0,0,0,0.7);
+    }
+
+    .myLeftCtn .butt:hover{
+        background: linear-gradient(45deg, #c85bff, #b726ff);
+        cursor: pointer;
+    }
+    .myLeftCtn .fa{
+        position: relative;
+        color:#005AC1;
+        left: 36px !important;
+    }
+    
+    @media only screen and (max-width: 768PX) {
+        .myRightCtn{
+            display: none !important;
+        }
+      }
+
+
+
