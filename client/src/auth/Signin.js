@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, Redirect } from 'react-router-dom';
-
+import './Login.css'
 import axios from 'axios';
 import { authenticate, isAuth } from './helpers';
 import { ToastContainer, toast } from 'react-toastify';
@@ -51,39 +51,54 @@ const Signin = ({ history }) => {
     }; 
 
     const signinForm = () => (
-        <form>
-            <div className="form-group">
-                <label className="text-muted">Email</label>
-                <input onChange={handleChange('email')} value={email} type="email" className="form-control" />
-            </div>
+        <form className="myForm text-center">
+            <header>Login</header>
 
-            <div className="form-group">
-                <label className="text-muted">Password</label>
-                <input onChange={handleChange('password')} value={password} type="password" className="form-control" />
-            </div>
+                <div className="form-group">
+                    <i className= "fa fa-envelope"></i>
+                    <input onChange={handleChange('email')} value={email} className="myInput" type="email" placeholder="Email" />
+                </div>
 
-            <div>
-                <button className="btn btn-primary" onClick={clickSubmit}>
-                    {buttonText}
-                </button>
-            </div>
+                <div className="form-group">
+                    <i className= "fa fa-lock"></i>
+                    <input onChange={handleChange('password')} value={password} className="myInput" type="password" placeholder="Password" />
+                </div>
+
+                <div className="form-group button">
+                    <button className="butt" onClick={clickSubmit}>
+                        {buttonText}
+                    </button>
+                </div>
+                <Link to = "/auth/password/forgot">
+                    <p style={{color: "#005AC1"}}> Forgot Password </p>
+                </Link>
         </form>
     );
 
     return (
- 
-            <div className="col-md-6 offset-md-3">
-                <ToastContainer />
-                {isAuth() ? <Redirect to="/" /> : null}
-                <h1 className="p-5 text-center">Signin</h1>
-                
-                {signinForm()}
-                <br />
-                <Link to="/auth/password/forgot" className="btn btn-sm btn-outline-danger">
-                    Forgot Password
-                </Link>
+            <div className="h">
+            <div className="container">
+                <div className="myCard">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="myLeftCtn">
+                                <ToastContainer /> 
+                                {isAuth() ? <Redirect to="/" /> : null}
+                                {signinForm()}
+                                <br />
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="myRightCtn">
+                                <div className="box">
+                                    <img src='./images/signin.png' alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-     
+        </div>
     );
 };
 

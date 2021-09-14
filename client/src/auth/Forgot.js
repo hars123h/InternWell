@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './Login.css'
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.min.css';
 const Forgot = ({ history }) => {
     const [values, setValues] = useState({
         email: '',
-        buttonText: 'Request password reset link'
+        buttonText: 'Forgot Password'
     });
 
     const { email, buttonText } = values;
@@ -38,27 +38,38 @@ const Forgot = ({ history }) => {
     };
 
     const passwordForgotForm = () => (
-        <form>
-            <div className="form-group">
-                <label className="text-muted">Email</label>
-                <input onChange={handleChange('email')} value={email} type="email" className="form-control" />
-            </div>
+        <form className="myForm text-center">
+        <header className="mt-3 mb-5">Forgot Password</header>
 
-            <div>
-                <button className="btn btn-primary" onClick={clickSubmit}>
-                    {buttonText}
-                </button>
-            </div>
+        <div className="form-group mt-4 mr-5">
+            <i className= "fa fa-envelope"></i>
+            <input onChange={handleChange('email')} value={email} className="myInput" type="email" placeholder="Email" />
+        </div>
+
+        <div className="form-group button mr-5">
+                    <button className="butt" onClick={clickSubmit}>
+                        {buttonText}
+                    </button>
+                </div>
         </form>
     );
 
     return (
-     
-            <div className="col-md-6 offset-md-3">
-                <ToastContainer />
-                <h1 className="p-5 text-center">Forgot password</h1>
-                {passwordForgotForm()}
+        <div className="h">
+        <div className="container">
+            <div className="myCard">
+                <div className="row">
+                    <div className="col-lg-12 col-md-12 col-12">
+                        <div className="myLeftCtn">
+                            <ToastContainer /> 
+                            {passwordForgotForm()}
+                            <br />
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
         
     );
 };
