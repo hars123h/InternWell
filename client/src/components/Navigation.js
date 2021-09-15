@@ -27,18 +27,18 @@ const Navigation = ({ children, history, match }) => {
 											<li ><a href ="/">Home</a></li>
 											<li ><a>Know More<i className="fa fa-caret-down"></i></a>
 												<ul className="dropdown">
-													<li><a href="/about">About Us</a></li>
-													<li><a href="/team">Our Team</a></li>
-													<li><a href="/mentor">Our Mentor</a></li>
-													<li><a href="/blogs">Blogs</a></li>
+													<li><Link to="/about">About Us</Link></li>
+													<li><Link to="/team">Our Team</Link></li>
+													<li><Link to="/mentor">Our Mentor</Link></li>
+													<li><Link to="/blogs">Blogs</Link></li>
 												</ul>
 											</li>
-											<li><a href="/services">Services</a></li>
-											<li><a href="/internshp">Internship</a></li>
+											<li><Link to="/services">Services</Link></li>
+											<li><Link to="/internshp">Internship</Link></li>
 											<li><a>Social Initiative<i className="fa fa-caret-down"></i></a>
 												<ul className="dropdown">
-													<li><a href="/student-init">Initiative for Students</a></li>
-													<li><a href="/society-init">Initiative for Society</a></li>
+													<li><Link to="/student-init">Initiative for Students</Link></li>
+													<li><Link to="/society-init">Initiative for Society</Link></li>
 												</ul>
 											</li>
 											<li><a href="/contact">Contact</a></li>
