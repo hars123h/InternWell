@@ -10,7 +10,7 @@ const Client = () => {
         <div className="col-12 ">
             <div className="section-title">
                 <span className="title-bg">Clients</span>
-                <h1>Our Partners</h1>
+                <h1>Our Clients/Partners</h1>
             </div>
         </div>
     </div>

@@ -58,7 +58,7 @@ const Footer = () => {
 
                                 <div className="single-widget about">
                                     <h2>Office Location</h2>
-                                    <p>Chandigarh, Punjba, India</p>
+                                    <p>Chandigarh, Punjab, India</p>
                                     <ul className="list">
                                         {/* <!-- <li><i className="fa fa-map-marker"></i>Address: House 20, Sector-7, Road-5, California, US</li> --> */}
                                         <li><i className="fa fa-phone"></i> +91 9882094318</li>
