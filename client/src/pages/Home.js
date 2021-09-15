@@ -14,7 +14,7 @@ const Home = () => {
                                 <div className="col-lg-7 col-md-6 col-12">
                                     {/* <!-- Slider Text --> */}
                                     <div className="slider-text">
-                                        <h1>InternWell <span>Business</span> World That Possible anything<span>!</span></h1>
+                                        <h1><span>InternWell </span> - By the Students, for the Students & Society<span>!</span></h1>
                                         <p style={{fontSize: "15px"}}>Our vision is to build a strong bridge between the world of education and the world of work by equipping students with the right skills and ideas. </p>
                                         <div className="button">
                                             <button className="btn">Our Portfolio</button>
@@ -128,7 +128,7 @@ const Home = () => {
                         <div className="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.8s">
                             {/* <!-- About Content --> */}
                             <div className="about-content">
-                                <h2 style={{color: "#000"}}>A world className platform for the young undergrads to scale up their skills & potentials !!</h2>
+                                <h2 style={{color: "#000"}}>A world class platform for the young undergrads to scale up their skills & potentials !!</h2>
                                 <p style={{fontSize: "14px"}}>We are a socio-startup by and for students whose goal is to provide digital solutions to SMEs and help their businesses soar to new heights by developing customized Websites & Apps, developed by budding interns who in turn get opportunities to hone their skills and become future ready.Most of the companies have left a major part of the society, the underprivileged behind. We wish to help this section grow & develop their lifestyle by upgrading their technical skills and enhancing employability. We aim to invest our time and about 20% of our investments towards thissocial venture.</p>
                                 <p style={{fontSize: "14px"}}>An excellent way to learn new skills while honing existing ones. We give you firsthand knowledge of how the industry works and functions. Working on a live project gives you an advantage because it counts as a bonus on your resume. InternWell provides interns with hands-on experience on projects that we take on from SMEs, all while being mentored by experts.</p>
 
@@ -254,7 +254,7 @@ const Home = () => {
                 <div className="container">
                     <div className="section-title">
                         <span className="title-bg">Testimonial</span>
-                        <h1>Our Clients</h1>
+                        <h1>Our Participants Feedback</h1>
                     </div>
                 </div>
                 <Testimonial />

@@ -35,7 +35,7 @@ const Navigation = ({ children, history, match }) => {
 											</li>
 											<li><a href="/services">Services</a></li>
 											<li><a href="/internshp">Internship</a></li>
-											<li><a href="/">Social Initiative<i className="fa fa-caret-down"></i></a>
+											<li><a>Social Initiative<i className="fa fa-caret-down"></i></a>
 												<ul className="dropdown">
 													<li><a href="/student-init">Initiative for Students</a></li>
 													<li><a href="/society-init">Initiative for Society</a></li>
